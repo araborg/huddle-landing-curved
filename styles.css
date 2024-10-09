@@ -1,0 +1,73 @@
+/* 
+Practice using pseudo-elements for styling extras and the CSS 
+position property for the sections with curved edges.
+
+1. You'll need to use your best judgment for styles such as 
+`font-size`, `padding` and `margin`. 
+
+2. Look through the designs to start planning out how you'll 
+tackle the project. This step is crucial to help you think 
+ahead for CSS classes to create reusable styles.
+
+3. Write out the base styles for your project, including general 
+content styles, such as `font-family` and `font-size`.
+
+4. Start adding styles to the top of the page and work down. 
+Only move on to the next section once you're happy you've 
+completed the area you're working on.
+
+5. Hosting
+https://pages.github.com/
+
+*/
+
+/* 
+
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+> 💡 These are just the design sizes. Ensure content is responsive 
+and meets WCAG requirements by testing the full range of screen sizes 
+from 320px to large screens.
+
+## Colors
+
+### Primary
+
+- Pink: hsl(322, 100%, 66%)
+- Light Pink: hsl(321, 100%, 78%)
+- Light Red: hsl(0, 100%, 63%)
+
+### Neutral
+
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Very Pale Blue: hsl(207, 100%, 98%)
+
+## Typography
+
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 700
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 600, 700
+
+## Icons
+
+For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/)
+
+
+*/
