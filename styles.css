@@ -96,3 +96,12 @@ For the social icons, you can use a font icon library. Some suggestions can be f
     --font-headings: "Poppins";
     --font-body: "Open Sans";
 }
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
