@@ -92,18 +92,16 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 
 /* Neutral */
 
-- Very Dark Cyan: hsl(192, 100%, 9%)
-- Very Pale Blue: hsl(207, 100%, 98%)
+--very-dark-cyan: hsl(192, 100%, 9%);
+--very-pale-blue: hsl(207, 100%, 98%);
 
-## Typography
+/* Typography */
 
-### Headings
-
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 700
+--font-headings: "Poppins";
+--font-body: "Open Sans"
 
 ### Body
 
-- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Family: [](https://fonts.google.com/specimen/Open+Sans)
 - Weights: 400, 600, 700
 }
