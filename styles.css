@@ -105,3 +105,7 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 
     box-sizing: border-box;
 }
+
+body {
+    font-family: var(--font-body);
+}
