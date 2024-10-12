@@ -237,8 +237,16 @@ body {
 section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
 
-    margin: 200px 0;
+    margin: 150px 0;
+}
+
+.achievements {
+    /* text-align: center; */
+
+    width: 60%;
+    margin: 0 auto;
 }
 
 section img {
@@ -248,4 +256,12 @@ section img {
 .communities,
 .messages {
     width: 20px;
+}
+
+.achievements * {
+    border: 1px solid blue;
+}
+
+h2.number {
+    font-size: 5rem;
 }
