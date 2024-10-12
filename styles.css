@@ -279,7 +279,7 @@ section .grow {
     border: 2px solid red;
 }
 
-/* .grow::before {
+.grow::before {
     content: "";
 
     width: 100%;
@@ -315,7 +315,7 @@ section .grow {
     bottom: -130px;
 
     z-index: -1;
-} */
+}
 
 .text {
     /* border: 1px solid saddlebrown; */
