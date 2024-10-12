@@ -187,9 +187,11 @@ body {
 
     width: 60%;
 
-    margin: 3rem 0;
+    margin: 2rem 0;
 
     text-align: center;
+}
 
-    border: 1px solid red;
+.title-btn {
+    margin: 5rem 0;
 }
