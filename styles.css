@@ -237,6 +237,8 @@ body {
 section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
+    margin: 200px 0;
 }
 
 section img {
