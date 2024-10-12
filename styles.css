@@ -114,13 +114,13 @@ html {
 body {
     font-family: var(--font-body);
 
-    padding: 2rem;
-
-    background-color: #fcfcfc;
+    background-color: #ffffff;
 
     /* width: 100%; */
+}
 
-    border: 1px solid green;
+.container {
+    /* padding: 2rem; */
 }
 
 #nav {
@@ -350,6 +350,11 @@ section.grow::after {
     text-align: center;
 }
 
+/* footer */
 footer {
     border: 2px solid red;
+
+    width: 100%;
+
+    background-color: var(--very-dark-cyan);
 }
