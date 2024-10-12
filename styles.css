@@ -149,21 +149,16 @@ body {
 }
 
 .nav-btn {
+    border: 1px solid var(--light-pink);
     border-radius: 25px;
 
-    border: 1px solid var(--light-pink);
-
-    /* height: 30px; */
-
     color: var(--light-pink);
+    background-color: transparent;
 
     font-weight: 400;
-
     font-size: 1.5rem;
 
     padding: 7.5px 15px;
-
-    background-color: transparent;
 
     margin: 5px;
 
