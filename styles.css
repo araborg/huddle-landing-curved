@@ -262,6 +262,6 @@ section img {
     border: 1px solid blue;
 }
 
-h2.number {
+.achievements h2.number {
     font-size: 5rem;
 }
