@@ -242,6 +242,8 @@ section {
     gap: 2rem;
 
     margin: 150px 0;
+
+    padding: 5rem;
 }
 
 .achievements {
@@ -271,7 +273,7 @@ section img {
 
 .communities,
 .messages {
-    width: 20px;
+    width: 25px;
 }
 
 .achievements * {
@@ -288,4 +290,14 @@ section img {
     font-size: 1.4rem;
 
     color: #949494;
+}
+
+.grow {
+    border: 2px solid purple;
+}
+
+.grow::before {
+    content: "";
+
+    background-image: url(./images/bg-section-top-desktop-1.svg);
 }
