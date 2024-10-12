@@ -222,6 +222,32 @@ section {
     width: 100%;
 }
 
+.achievements {
+    width: 60%;
+    margin: 0 auto;
+
+    /* gap: 10rem; */
+}
+
+.communities,
+.messages {
+    width: 25px;
+
+    /* border: 2px solid orange; */
+}
+
+.achievements h2.number {
+    font-size: 5rem;
+
+    color: #333131;
+}
+
+.achievements p {
+    font-size: 1.4rem;
+
+    color: #949494;
+}
+
 section.grow {
     background-color: var(--very-pale-blue);
 
@@ -276,7 +302,8 @@ section.grow::after {
     padding: 10rem;
 }
 
-.inner-container {
+.inner-container,
+.achievements {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
