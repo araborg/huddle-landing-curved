@@ -264,7 +264,7 @@ section.grow::before {
     z-index: -1;
 }
 
-.section.grow::after {
+section.grow::after {
     content: "";
 
     width: 100%;
@@ -276,9 +276,9 @@ section.grow::before {
     background-size: contain;
     background-position: center;
 
-    /* position: absolute; */
-    /* left: 0; */
-    /* bottom: -30%; */
+    position: absolute;
+    left: 0;
+    bottom: -40%;
 
     /* z-index: 2; */
 
