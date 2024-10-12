@@ -242,3 +242,8 @@ section {
 section img {
     width: 400px;
 }
+
+.communities,
+.messages {
+    width: 20px;
+}
