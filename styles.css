@@ -91,7 +91,7 @@ For the social icons, you can use a font icon library. Some suggestions can be f
     /* Neutral */
     --very-dark-cyan: hsl(192, 100%, 9%);
     --very-pale-blue: hsl(207, 100%, 98%);
---white: #595959
+    --white-color: #f3f3f3;
 
     /* Typography */
     --font-headings: "Poppins";
