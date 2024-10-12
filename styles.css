@@ -338,8 +338,6 @@ section.grow::after {
     width: 100%;
 
     font-size: 2rem;
-
-    border: 2px solid red;
 }
 
 .cta {
@@ -350,4 +348,8 @@ section.grow::after {
     /* border: 2px solid blue; */
 
     text-align: center;
+}
+
+footer {
+    border: 2px solid red;
 }
