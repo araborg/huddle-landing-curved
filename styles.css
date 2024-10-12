@@ -222,12 +222,6 @@ section {
     width: 100%;
 }
 
-section img {
-    width: 100%;
-
-    max-width: 400px;
-}
-
 section.grow {
     background-color: var(--very-pale-blue);
 
@@ -277,7 +271,7 @@ section.grow::after {
 .inner-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 4rem;
 
     width: 1440px;
     max-width: 100%;
@@ -294,6 +288,23 @@ section.grow::after {
     flex-direction: column;
 
     justify-content: center;
+}
+
+.text h3 {
+    font-size: 2.5rem;
+
+    padding-bottom: 2rem;
+}
+
+.text .description {
+    font-size: 1.5rem;
+}
+
+.inner-container img {
+    width: 100%;
+
+    max-width: 300px;
+    /* object-fit: cover; */
 }
 
 .call-to-action {
