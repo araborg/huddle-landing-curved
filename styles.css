@@ -259,11 +259,9 @@ section.grow::before {
 
     position: absolute;
     top: -43%;
-    /* left: 0; */
+    left: 0;
 
     z-index: -1;
-
-    /* border: 2px solid black; */
 }
 
 .section.grow::after {
@@ -278,11 +276,13 @@ section.grow::before {
     background-size: contain;
     background-position: center;
 
-    position: absolute;
-    left: 0;
-    bottom: -30%;
+    /* position: absolute; */
+    /* left: 0; */
+    /* bottom: -30%; */
 
-    z-index: -1;
+    /* z-index: 2; */
+
+    /* border: 2px solid black; */
 }
 
 .inner-container {
