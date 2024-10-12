@@ -118,7 +118,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
 
     margin: 0 auto;
 
@@ -174,4 +174,10 @@ body {
     flex-direction: column;
 
     padding-top: 20rem;
+}
+
+.title {
+    font-family: var(--font-headings);
+
+    font-size: 3.5rem;
 }
