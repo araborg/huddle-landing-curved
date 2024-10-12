@@ -132,10 +132,6 @@ body {
 }
 
 .nav-logo {
-    width: 15%;
-
-    margin-right: 5px;
-
     width: 150px;
 }
 
@@ -377,10 +373,4 @@ footer::before {
     left: 0;
 
     z-index: -1;
-}
-
-.footer-left-side img {
-    color: white;
-
-    background-color: white;
 }
