@@ -115,6 +115,8 @@ body {
     font-family: var(--font-body);
 
     padding: 4rem 0;
+
+    background-color: #fcfcfc;
 }
 
 .container {
@@ -247,6 +249,18 @@ section {
 
     width: 60%;
     margin: 0 auto;
+
+    border: 2px solid black;
+
+    /* justify-content: flex-end; */
+}
+
+.achievements div {
+    /* margin-right: 5rem; */
+
+    /* width: 50%; */
+
+    padding: 2rem;
 }
 
 section img {
@@ -264,4 +278,12 @@ section img {
 
 .achievements h2.number {
     font-size: 5rem;
+
+    color: #333131;
+}
+
+.achievements p {
+    font-size: 1.6rem;
+
+    color: #949494;
 }
