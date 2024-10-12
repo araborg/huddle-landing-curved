@@ -158,9 +158,6 @@ body {
     color: var(--light-pink);
     background-color: transparent;
 
-    /* font-weight: 400; */
-    /* font-size: 1.5rem; */
-
     font-weight: 600;
 
     font-size: 1.6rem;
@@ -206,8 +203,6 @@ body {
 
     padding: 15px 60px;
 
-    /* width: 300px; */
-
     border-radius: 30px;
 
     background-color: var(--pink);
@@ -239,24 +234,15 @@ section {
 }
 
 .achievements {
-    /* text-align: center; */
-
     width: 60%;
     margin: 0 auto;
 
     border: 2px solid black;
 
     gap: 10rem;
-
-    /* justify-content: flex-end; */
 }
 
 .achievements div {
-    /* margin-right: 5rem; */
-
-    /* width: 50%; */
-
-    /* padding: 2rem; */
 }
 
 section img {
@@ -285,14 +271,10 @@ section img {
 }
 
 .grow {
-    /* border: 2px solid purple; */
-
     position: relative;
     z-index: 1;
 
     background-color: var(--very-pale-blue);
-
-    /* background: linear-gradient(url("./images/bg-section-top-desktop-1.svg")); */
 }
 
 .grow::before {
@@ -302,7 +284,6 @@ section img {
     height: 30%;
 
     background-image: url(./images/bg-section-top-desktop-1.svg);
-    /* background-image: url(./images/bg-section-top-desktop-1.svg); */
 
     background-repeat: no-repeat;
     background-size: contain;
