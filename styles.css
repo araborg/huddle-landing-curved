@@ -183,9 +183,9 @@ body {
 }
 
 .title-description {
-    font-size: 2rem;
+    font-size: 1.6rem;
 
-    width: 60%;
+    width: 50%;
 
     margin: 2rem 0;
 
@@ -193,7 +193,14 @@ body {
 }
 
 .title-btn {
-    margin: 5rem 0;
+    margin: 3.5rem 0;
 
-    padding: 15px 30px;
+    padding: 15px 60px;
+
+    /* width: 300px; */
+
+    border-radius: 30px;
+    background-color: var(--light-red);
+
+    font-size: 1.5rem;
 }
