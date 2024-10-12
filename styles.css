@@ -272,8 +272,11 @@ section.grow {
     z-index: 1;
 
     width: 100%;
+    margin: 0 auto;
 
     background-color: var(--very-pale-blue);
+
+    border: 1px solid red;
 }
 
 .grow::before {
@@ -347,4 +350,8 @@ section.grow {
 
 .text .description {
     font-size: 1.5rem;
+}
+
+.inner-container img {
+    width: 100%;
 }
