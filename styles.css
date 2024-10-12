@@ -293,8 +293,6 @@ section img {
     top: -28%;
     left: 0;
 
-    /* border: 1px solid blue; */
-
     z-index: -1;
 }
 
@@ -305,18 +303,14 @@ section img {
     height: 50%;
 
     background-image: url(./images/bg-section-bottom-desktop-1.svg);
-    /* background-image: url(./images/bg-section-top-desktop-1.svg); */
 
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 
     position: absolute;
-    /* top: -40%; */
     left: 0;
     bottom: -130px;
-
-    /* border: 1px solid blue; */
 
     z-index: -1;
 }
