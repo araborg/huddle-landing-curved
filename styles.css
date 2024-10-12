@@ -128,6 +128,12 @@ body {
 
 #nav {
     display: flex;
+
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .nav-first-half {
@@ -217,4 +223,8 @@ body {
     cursor: pointer;
 
     box-shadow: 2px 3px 8px var(--light-pink);
+}
+
+.hero-img {
+    width: 750px;
 }
