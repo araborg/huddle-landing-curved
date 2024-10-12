@@ -249,7 +249,7 @@ section.grow::before {
     background-position: center;
 
     position: absolute;
-    top: -43%;
+    top: -40%;
     left: 0;
 
     z-index: -1;
@@ -269,7 +269,7 @@ section.grow::after {
 
     position: absolute;
     left: 0;
-    bottom: -40%;
+    bottom: -37%;
 
     z-index: -1;
 }
@@ -287,6 +287,13 @@ section.grow::after {
     margin: 30rem auto;
 
     /* border: 2px solid green; */
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
 }
 
 .call-to-action {
