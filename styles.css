@@ -228,10 +228,10 @@ section {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 
-    width: 1040px;
-    max-width: 100%;
+    /* width: 1040px; */
+    /* max-width: 100%; */
 
-    margin: 250px auto;
+    /* margin: 250px auto; */
 
     padding: 2rem;
 }
@@ -267,7 +267,7 @@ section img {
     color: #949494;
 }
 
-section.grow {
+.grow {
     position: relative;
     z-index: 1;
 
