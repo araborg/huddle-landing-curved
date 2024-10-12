@@ -304,27 +304,13 @@ section.grow::after {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 
-    /* justify-content: center; */
     justify-items: center;
     align-items: center;
 
     width: 100%;
-
-    /* border: 2px solid red; */
-}
-
-.inner-container * {
-    /* border: 2px solid green; */
 }
 
 .text {
-    /* display: flex; */
-    /* flex-direction: column; */
-
-    /* justify-content: center; */
-
-    /* border: 2px solid red; */
-
     width: 86%;
 }
 
