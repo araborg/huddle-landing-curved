@@ -117,13 +117,8 @@ body {
     padding: 4rem 0;
 
     background-color: #fcfcfc;
-    /* }
 
-.container { */
-    width: 100%;
-    /* max-width: 1040px; */
-
-    /* margin: 0 auto; */
+    /* width: 100%; */
 
     border: 1px solid green;
 }
