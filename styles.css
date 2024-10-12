@@ -271,13 +271,7 @@ section.grow::after {
 
 */
 
-.inner-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* gap: 2rem; */
-
-    /* justify-content: space-between; */
-
+.helper {
     width: 1440px;
     max-width: 100%;
     margin: 30rem auto;
@@ -285,17 +279,32 @@ section.grow::after {
     padding: 10rem;
 }
 
+.inner-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+
+    /* justify-content: center; */
+    justify-items: center;
+
+    width: 100%;
+
+    border: 2px solid red;
+}
+
 .inner-container * {
     border: 2px solid green;
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
 
-    justify-content: center;
+    /* justify-content: center; */
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
+
+    /* width: 40%; */
 }
 
 .text h3 {
