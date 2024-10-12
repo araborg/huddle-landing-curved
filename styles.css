@@ -151,13 +151,21 @@ body {
 .nav-btn {
     border-radius: 25px;
 
-    border: 2px solid green;
+    border: 1px solid var(--light-pink);
 
     /* height: 30px; */
 
-    padding: 5px 10px;
+    color: var(--light-pink);
+
+    font-weight: 400;
+
+    font-size: 1.5rem;
+
+    padding: 7.5px 15px;
 
     background-color: transparent;
 
     margin: 5px;
+
+    cursor: pointer;
 }
