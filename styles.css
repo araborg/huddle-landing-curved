@@ -381,4 +381,6 @@ footer::before {
 
 .footer-left-side img {
     color: white;
+
+    background-color: white;
 }
