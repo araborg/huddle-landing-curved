@@ -310,6 +310,7 @@ section.grow::after {
 
     /* justify-content: center; */
     justify-items: center;
+    align-items: center;
 
     width: 100%;
 
