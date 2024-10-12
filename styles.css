@@ -114,7 +114,7 @@ html {
 body {
     font-family: var(--font-body);
 
-    padding: 4rem 0;
+    padding: 2rem;
 
     background-color: #fcfcfc;
 
@@ -279,7 +279,7 @@ section.grow::after {
 .inner-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1rem;
 
     /* justify-content: center; */
     justify-items: center;
@@ -301,7 +301,7 @@ section.grow::after {
 
     /* border: 2px solid red; */
 
-    /* width: 40%; */
+    width: 86%;
 }
 
 .text h3 {
