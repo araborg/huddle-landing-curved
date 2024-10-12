@@ -286,7 +286,7 @@ section.grow::after {
 
     margin: 30rem auto;
 
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .call-to-action {
