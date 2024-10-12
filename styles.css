@@ -268,7 +268,7 @@ section img {
     color: #949494;
 }
 
-section .grow {
+section.grow {
     position: relative;
     z-index: 1;
 
@@ -276,7 +276,7 @@ section .grow {
 
     background-color: var(--very-pale-blue);
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .grow::before {
