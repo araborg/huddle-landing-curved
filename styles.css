@@ -230,6 +230,7 @@ section.grow {
     z-index: 1;
 }
 
+/*
 section.grow::before {
     content: "";
 
@@ -268,19 +269,24 @@ section.grow::after {
     z-index: -1;
 }
 
+*/
+
 .inner-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 4rem;
+    /* gap: 2rem; */
+
+    /* justify-content: space-between; */
 
     width: 1440px;
     max-width: 100%;
-
-    padding: 10rem;
-
     margin: 30rem auto;
 
-    /* border: 2px solid green; */
+    padding: 10rem;
+}
+
+.inner-container * {
+    border: 2px solid green;
 }
 
 .text {
@@ -288,6 +294,8 @@ section.grow::after {
     flex-direction: column;
 
     justify-content: center;
+
+    border: 2px solid red;
 }
 
 .text h3 {
@@ -304,6 +312,10 @@ section.grow::after {
     width: 100%;
 
     max-width: 300px;
+
+    border: 2px solid red;
+
+    /* text-align: center; */
     /* object-fit: cover; */
 }
 
