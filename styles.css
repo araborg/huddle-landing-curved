@@ -234,3 +234,11 @@ body {
 }
 
 /* sections */
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+section img {
+    width: 400px;
+}
