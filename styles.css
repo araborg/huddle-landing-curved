@@ -280,7 +280,7 @@ section.grow::after {
     left: 0;
     bottom: -40%;
 
-    /* z-index: 2; */
+    z-index: -1;
 
     /* border: 2px solid black; */
 }
@@ -293,7 +293,9 @@ section.grow::after {
     width: 1040px;
     max-width: 100%;
 
-    margin: 150px auto;
+    margin: 30rem auto;
+
+    /* padding: 40rem 0; */
 
     border: 2px solid green;
 }
