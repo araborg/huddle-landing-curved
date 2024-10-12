@@ -354,4 +354,5 @@ section.grow {
 
 .inner-container img {
     width: 100%;
+    object-fit: cover;
 }
