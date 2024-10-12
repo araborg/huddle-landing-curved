@@ -254,10 +254,6 @@ section img {
     width: 25px;
 }
 
-.achievements * {
-    border: 1px solid blue;
-}
-
 .achievements h2.number {
     font-size: 5rem;
 
