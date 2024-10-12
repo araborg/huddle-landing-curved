@@ -225,15 +225,11 @@ section {
 .achievements {
     width: 60%;
     margin: 0 auto;
-
-    /* gap: 10rem; */
 }
 
 .communities,
 .messages {
     width: 25px;
-
-    /* border: 2px solid orange; */
 }
 
 .achievements h2.number {
