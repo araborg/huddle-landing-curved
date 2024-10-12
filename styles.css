@@ -270,8 +270,6 @@ section.grow::after {
     bottom: -40%;
 
     z-index: -1;
-
-    /* border: 2px solid black; */
 }
 
 .inner-container {
@@ -284,8 +282,6 @@ section.grow::after {
 
     margin: 30rem auto;
 
-    /* padding: 40rem 0; */
-
     border: 2px solid green;
 }
 
@@ -296,9 +292,6 @@ section.grow::after {
 }
 
 .center {
-    /* width: 1040px; */
-    /* max-width: 100%; */
-
     margin: 0 auto;
 
     border: 2px solid blue;
