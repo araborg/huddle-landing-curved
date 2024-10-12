@@ -267,6 +267,22 @@ section.grow::before {
 }
 
 .section.grow::after {
+    content: "";
+
+    width: 100%;
+    height: 50%;
+
+    background-image: url(./images/bg-section-bottom-desktop-1.svg);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    position: absolute;
+    left: 0;
+    bottom: -30%;
+
+    z-index: -1;
 }
 
 .inner-container {
