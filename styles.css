@@ -228,131 +228,25 @@ section {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 
-    /* width: 1040px; */
-    /* max-width: 100%; */
+    width: 1040px;
+    max-width: 100%;
 
-    /* margin: 250px auto; */
+    margin: 250px auto;
 
     /* padding: 2rem; */
 }
 
-.achievements {
-    width: 60%;
-    margin: 0 auto;
-
-    gap: 10rem;
+section:nth-child(even) {
+    border: 2px solid blue;
 }
 
-.achievements div {
+section:nth-child(even)::before {
+    content: "";
+}
+
+section:nth-child(even)::after {
 }
 
 section img {
-    width: 400px;
-}
-
-.communities,
-.messages {
-    width: 25px;
-}
-
-.achievements h2.number {
-    font-size: 5rem;
-
-    color: #333131;
-}
-
-.achievements p {
-    font-size: 1.4rem;
-
-    color: #949494;
-}
-
-.grow {
-    position: relative;
-    z-index: 1;
-
-    /* width: 100%; */
-    /* margin: 0 auto; */
-
-    background-color: var(--very-pale-blue);
-
-    border: 1px solid red;
-}
-
-.grow::before {
-    content: "";
-
     width: 100%;
-    height: 50%;
-
-    background-image: url(./images/bg-section-top-desktop-1.svg);
-
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-
-    position: absolute;
-    top: -33%;
-    left: 0;
-
-    z-index: -1;
-}
-
-.grow::after {
-    content: "";
-
-    width: 100%;
-    height: 50%;
-
-    background-image: url(./images/bg-section-bottom-desktop-1.svg);
-
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-
-    position: absolute;
-    left: 0;
-    bottom: -30%;
-
-    z-index: -1;
-}
-
-.inner-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
-    border: 2px solid red;
-
-    /* width: 100%; */
-    /* max-width: 1040px; */
-
-    /* margin: 0 auto; */
-}
-
-.text {
-    /* border: 1px solid saddlebrown; */
-
-    /* width: 100%; */
-
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-
-    /* padding: 0 1rem; */
-}
-
-.text h3 {
-    font-size: 2.5rem;
-
-    padding-bottom: 2rem;
-}
-
-.text .description {
-    font-size: 1.5rem;
-}
-
-.inner-container img {
-    width: 100%;
-    object-fit: cover;
 }
