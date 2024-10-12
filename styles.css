@@ -293,7 +293,12 @@ section img {
 }
 
 .grow {
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
+
+    position: relative;
+    z-index: 1;
+
+    background-color: var(--very-pale-blue);
 
     /* background: linear-gradient(url("./images/bg-section-top-desktop-1.svg")); */
 }
@@ -302,19 +307,45 @@ section img {
     content: "";
 
     width: 100%;
-    height: 100%;
+    height: 50%;
 
     background-image: url(./images/bg-section-top-desktop-1.svg);
     /* background-image: url(./images/bg-section-top-desktop-1.svg); */
 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 
-    /* position: absolute; */
-    /* top: 0; */
-    /* left: 0; */
-    border: 1px solid salmon;
+    position: absolute;
+    top: -40%;
+    left: 0;
+
+    /* border: 1px solid blue; */
+
+    z-index: -1;
+}
+
+.grow::after {
+    content: "";
+
+    width: 100%;
+    height: 50%;
+
+    background-image: url(./images/bg-section-bottom-desktop-1.svg);
+    /* background-image: url(./images/bg-section-top-desktop-1.svg); */
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    position: absolute;
+    /* top: -40%; */
+    left: 0;
+    bottom: -150px;
+
+    border: 1px solid blue;
+
+    z-index: -1;
 }
 
 .text {
