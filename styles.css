@@ -156,8 +156,12 @@ body {
     color: var(--light-pink);
     background-color: transparent;
 
-    font-weight: 400;
-    font-size: 1.5rem;
+    /* font-weight: 400; */
+    /* font-size: 1.5rem; */
+
+    font-weight: 600;
+
+    font-size: 1.6rem;
 
     padding: 7.5px 15px;
 
@@ -201,9 +205,12 @@ body {
     /* width: 300px; */
 
     border-radius: 30px;
-    background-color: var(--light-red);
 
-    font-size: 1.5rem;
+    background-color: var(--light-red);
+    color: var(--white-color);
+    font-weight: 600;
+
+    font-size: 1.6rem;
 
     border: none;
 }
