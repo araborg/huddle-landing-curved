@@ -224,22 +224,28 @@ body {
 
 /* sections */
 section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-
-    /* width: 1040px; */
-    /* max-width: 100%; */
-
     width: 100%;
 
-    margin: 250px auto;
+    /* margin: 250px auto; */
 
-    z-index: 1;
+    /* z-index: 1; */
 
     /* padding: 2rem; */
 }
 
 section img {
     width: 100%;
+}
+
+.inner-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+
+    width: 1040px;
+    max-width: 100%;
+
+    margin: 150px auto;
+
+    border: 2px solid green;
 }
