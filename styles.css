@@ -223,8 +223,7 @@ body {
 }
 
 /* sections */
-section,
-.grow {
+section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
@@ -268,16 +267,18 @@ section img {
     color: #949494;
 }
 
-.grow {
+section.grow {
     position: relative;
     z-index: 1;
 
     width: 100%;
 
     background-color: var(--very-pale-blue);
+
+    border: 2px solid red;
 }
 
-.grow::before {
+/* .grow::before {
     content: "";
 
     width: 100%;
@@ -313,7 +314,7 @@ section img {
     bottom: -130px;
 
     z-index: -1;
-}
+} */
 
 .text {
     /* border: 1px solid saddlebrown; */
