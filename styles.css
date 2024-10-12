@@ -132,3 +132,18 @@ body {
 .nav-first-half {
     margin-right: auto;
 }
+
+.nav-logo {
+    width: 15%;
+
+    margin-right: 5px;
+}
+
+.logo {
+    font-family: var(--font-headings);
+    font-weight: 700;
+
+    font-size: 3rem;
+
+    margin-top: -5px;
+}
