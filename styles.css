@@ -203,6 +203,8 @@ body {
     margin: 2rem 0;
 
     text-align: center;
+
+    line-height: 1.6;
 }
 
 .title-btn {
@@ -230,3 +232,5 @@ body {
 .hero-img {
     width: 750px;
 }
+
+/* sections */
