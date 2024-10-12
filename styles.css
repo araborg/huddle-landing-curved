@@ -119,8 +119,8 @@ body {
     /* width: 100%; */
 }
 
-.container {
-    /* padding: 2rem; */
+#header {
+    padding: 2rem;
 }
 
 #nav {
@@ -339,7 +339,7 @@ section.grow::after {
 
     font-size: 2rem;
 
-    margin-bottom: 20rem;
+    margin-bottom: 30rem;
 }
 
 .cta {
