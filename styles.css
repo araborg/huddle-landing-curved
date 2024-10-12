@@ -374,3 +374,10 @@ footer::before {
 
     z-index: -1;
 }
+
+.telephone img,
+.email img {
+    /* font-size: 1rem; */
+
+    width: 2rem;
+}
