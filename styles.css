@@ -275,8 +275,6 @@ section.grow {
     width: 100%;
 
     background-color: var(--very-pale-blue);
-
-    /* border: 2px solid red; */
 }
 
 .grow::before {
@@ -292,7 +290,7 @@ section.grow {
     background-position: center;
 
     position: absolute;
-    top: -40%;
+    top: -36%;
     left: 0;
 
     z-index: -1;
