@@ -223,7 +223,8 @@ body {
 }
 
 /* sections */
-section {
+section,
+.inner-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
@@ -267,7 +268,7 @@ section img {
     color: #949494;
 }
 
-section.grow {
+section .grow {
     position: relative;
     z-index: 1;
 
