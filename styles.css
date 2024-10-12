@@ -175,7 +175,8 @@ body {
     padding-top: 20rem;
 }
 
-.title {
+.title,
+.call-to-action {
     font-family: var(--font-headings);
 
     font-size: 3.5rem;
@@ -193,9 +194,8 @@ body {
     line-height: 1.6;
 }
 
-.title-btn {
-    margin: 3.5rem 0;
-
+.title-btn,
+.cta {
     padding: 15px 60px;
 
     border-radius: 30px;
@@ -211,6 +211,10 @@ body {
     cursor: pointer;
 
     box-shadow: 2px 3px 8px var(--light-pink);
+}
+
+.title-btn {
+    margin: 3.5rem 0;
 }
 
 .hero-img {
@@ -328,23 +332,22 @@ section.grow::after {
     width: 100%;
 
     max-width: 300px;
-
-    /* border: 2px solid red; */
-
-    /* text-align: center; */
-    /* object-fit: cover; */
 }
 
 .call-to-action {
     width: 100%;
 
+    font-size: 2rem;
+
     border: 2px solid red;
 }
 
-.center {
-    /* margin: 0 auto; */
+.cta {
+    margin: 2.5rem 0;
+}
 
+.center {
     /* border: 2px solid blue; */
 
-    /* text-align: center; */
+    text-align: center;
 }
