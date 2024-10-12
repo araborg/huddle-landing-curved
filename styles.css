@@ -223,7 +223,8 @@ body {
 }
 
 /* sections */
-section {
+section,
+.grow {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
@@ -270,6 +271,8 @@ section img {
 .grow {
     position: relative;
     z-index: 1;
+
+    width: 100%;
 
     background-color: var(--very-pale-blue);
 }
