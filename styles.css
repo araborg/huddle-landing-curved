@@ -241,6 +241,12 @@ section.grow {
     background-color: var(--very-pale-blue);
 }
 
+section.grow::before {
+}
+
+.section.grow::after {
+}
+
 .inner-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
