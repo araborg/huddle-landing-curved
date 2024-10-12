@@ -230,7 +230,7 @@ section {
 
     margin: 150px 0;
 
-    padding: 5rem;
+    padding: 3rem;
 }
 
 .achievements {
@@ -311,4 +311,21 @@ section img {
 
 .text {
     border: 1px solid saddlebrown;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    /* padding: 0 4rem; */
+}
+
+.text h3 {
+    font-size: 2.5rem;
+
+    padding-bottom: 2rem;
+}
+
+.text .description {
+    font-size: 1.5rem;
 }
