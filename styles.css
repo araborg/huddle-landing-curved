@@ -112,4 +112,6 @@ html {
 
 body {
     font-family: var(--font-body);
+
+    padding: 2rem;
 }
