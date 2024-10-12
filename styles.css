@@ -223,8 +223,7 @@ body {
 }
 
 /* sections */
-section,
-.inner-container {
+section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
@@ -232,7 +231,7 @@ section,
     width: 1040px;
     max-width: 100%;
 
-    margin: 150px auto;
+    margin: 250px auto;
 
     padding: 2rem;
 }
@@ -290,7 +289,7 @@ section.grow {
     background-position: center;
 
     position: absolute;
-    top: -36%;
+    top: -33%;
     left: 0;
 
     z-index: -1;
@@ -310,9 +309,21 @@ section.grow {
 
     position: absolute;
     left: 0;
-    bottom: -130px;
+    bottom: -30%;
 
     z-index: -1;
+}
+
+.inner-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    border: 2px solid red;
+
+    width: 100%;
+    max-width: 1040px;
+
+    margin: 0 auto;
 }
 
 .text {
