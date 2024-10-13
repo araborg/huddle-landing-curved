@@ -115,8 +115,6 @@ body {
     font-family: var(--font-body);
 
     background-color: #ffffff;
-
-    /* width: 100%; */
 }
 
 #header {
@@ -357,6 +355,8 @@ footer {
 
     /* margin: 0; */
 
+    padding: 10rem;
+
     border: 2px solid red;
 }
 
@@ -388,7 +388,26 @@ footer::before {
 }
 
 .mini-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 
-    justify-content: space-between;
+    column-gap: 39%;
+
+    /* justify-content: space-between; */
+}
+
+.footer-text {
+    margin-bottom: 4rem;
+
+    /* width: 62%; */
+    font-weight: 400;
+
+    font-size: 1.5rem;
+}
+
+.footer-left-side {
+    /* justify-self: start; */
+}
+.footer-right-side {
+    justify-self: end;
 }
