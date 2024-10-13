@@ -381,11 +381,15 @@ footer::before {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
+    border: 2px solid red;
+}
+
+.footer-helper {
     width: 1440px;
     max-width: 100%;
-    margin: 0rem auto;
+    /* margin: 0rem auto; */
 
-    border: 2px solid red;
+    border: 2px solid blue;
 }
 
 .telephone img,
