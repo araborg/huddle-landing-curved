@@ -389,7 +389,9 @@ footer::before {
     width: 100%; */
 
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+
+    flex-direction: column;
 
     border: 2px solid red;
 }
