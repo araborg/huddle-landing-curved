@@ -211,11 +211,20 @@ section {
     width: 100%;
 }
 
-.achievements {
+.align {
     width: 60%;
-    margin: 0 auto;
 
+    max-width: 600px;
+    /* margin: 0 auto; */
+}
+
+.achievements {
     border: 2px solid green;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 .communities,
