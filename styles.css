@@ -216,23 +216,13 @@ section {
 }
 
 .achievements {
-    width: 500px;
+    width: 600px;
     max-width: 100%;
 
     margin: 15rem auto;
-
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-
-    border: 2px solid red;
 }
 
 .align {
-    border: 2px solid green;
-
-    /* width: 100%; */
-
     display: flex;
     justify-content: space-between;
 }
@@ -240,6 +230,10 @@ section {
 .communities,
 .messages {
     width: 25px;
+}
+
+.align div:nth-child(2) p {
+    padding-left: 2rem;
 }
 
 .achievements h2.number {
