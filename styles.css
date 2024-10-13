@@ -385,15 +385,6 @@ footer::before {
     max-width: 100%;
     margin: 0rem auto;
 
-    /* justify-items: left; */
-    /* align-items: start; */
-
-    /* justify-items: start; */
-    /* justify-content: space-between; */
-    /* width: 100%; */
-
-    /* padding: 0 10rem; */
-
     border: 2px solid red;
 }
 
@@ -408,10 +399,6 @@ footer::before {
     font-weight: 600;
 
     line-height: 1.6;
-
-    /* padding: 0 4rem; */
-
-    /* justify-items: center; */
 }
 
 .footer-right-side {
