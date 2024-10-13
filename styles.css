@@ -436,15 +436,10 @@ footer::before {
     list-style: none;
 
     font-size: 3rem;
-
-    /* border: 2px solid green; */
 }
 
 .footer-text {
     width: 72%;
-}
-
-.footer-right-side {
 }
 
 .social-icons li {
