@@ -446,6 +446,10 @@ footer::before {
     cursor: pointer;
 }
 
+ion-icon {
+    background-color: var(--very-dark-cyan);
+}
+
 form {
     display: flex;
     gap: 2rem;
