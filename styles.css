@@ -397,18 +397,18 @@ footer .inner-container {
 }
 
 .footer-right-side {
-    border: 2px solid red;
-
     align-items: flex-start;
 }
 
 .logo-svg,
 .title {
-    border: 2px solid green;
-
     margin: 0 0 2rem;
 }
 
 .title {
     font-size: 3rem;
+}
+
+.footer-text {
+    margin-bottom: 2rem;
 }
