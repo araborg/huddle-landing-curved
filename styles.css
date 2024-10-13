@@ -214,6 +214,8 @@ section {
 .achievements {
     width: 60%;
     margin: 0 auto;
+
+    border: 2px solid green;
 }
 
 .communities,
