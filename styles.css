@@ -420,3 +420,33 @@ footer::before {
 
     width: 42%;
 }
+
+/* 
+
+section {
+    width: 100%;
+}
+
+.helper {
+    width: 1440px;
+    max-width: 100%;
+    margin: 30rem auto;
+
+    padding: 10rem;
+}
+
+.inner-container,
+.achievements {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+    width: 100%;
+}
+
+.inner-container {
+    justify-items: center;
+    align-items: center;
+}
+
+*/
