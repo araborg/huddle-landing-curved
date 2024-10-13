@@ -466,12 +466,6 @@ footer::before {
 
 .social-icons li {
     margin: 0 2rem 0 0;
-
-    vertical-align: middle;
-}
-
-.social-icons li * {
-    align-self: center;
 }
 
 /* 
