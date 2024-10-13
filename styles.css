@@ -469,4 +469,11 @@ form input {
     width: 60%;
 
     padding: 1.5rem 0.75rem;
+
+    font-size: 1.6rem;
+
+    border-radius: 0.8rem;
+    border: 2px solid var(--white-color);
+
+    outline: none;
 }
