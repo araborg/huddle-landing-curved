@@ -446,8 +446,8 @@ footer::before {
     cursor: pointer;
 }
 
-ion-icon {
-    background-color: var(--very-dark-cyan);
+.social-icon:hover {
+    color: var(--pink);
 }
 
 form {
