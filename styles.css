@@ -148,7 +148,7 @@ body {
 
     padding: 7.5px 15px;
 
-    margin: 5px;
+    /* margin: 5px;///////// */
 
     cursor: pointer;
 }
@@ -297,10 +297,12 @@ section.grow::after {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 
+    width: 100%;
+}
+
+.inner-container {
     justify-items: center;
     align-items: center;
-
-    width: 100%;
 }
 
 .text {
@@ -353,9 +355,21 @@ footer {
 
     position: relative;
 
-    padding: 10rem;
+    padding: 0 10rem;
 
-    border: 2px solid red;
+    margin: 0;
+
+    /* width: 1440px;
+    max-width: 100%;
+    margin: 0 auto; */
+
+    /* 
+     width: 1440px;
+    max-width: 100%;
+    margin: 30rem auto;
+
+    padding: 10rem;
+    */
 }
 
 footer::before {
@@ -371,10 +385,30 @@ footer::before {
     background-position: center;
 
     position: absolute;
-    top: -52%;
+    top: -50%;
     left: 0;
 
     z-index: -1;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    width: 1440px;
+    max-width: 100%;
+    margin: 0rem auto;
+
+    /* justify-items: left; */
+    /* align-items: start; */
+
+    /* justify-items: start; */
+    /* justify-content: space-between; */
+    /* width: 100%; */
+
+    /* padding: 0 10rem; */
+
+    border: 2px solid red;
 }
 
 .telephone img,
@@ -384,16 +418,14 @@ footer::before {
     width: 2rem;
 }
 
-footer .inner-container div {
-    width: 42%;
-
+.footer-container div {
     font-weight: 600;
 
     line-height: 1.6;
-}
 
-footer .inner-container {
-    align-items: start;
+    /* padding: 0 4rem; */
+
+    /* justify-items: center; */
 }
 
 .footer-right-side {
@@ -402,7 +434,8 @@ footer .inner-container {
 
 .logo-svg,
 .title {
-    margin: 0 0 2rem;
+    margin: 0;
+    /* margin: 0 0 2rem; */
 }
 
 .title {
@@ -411,4 +444,6 @@ footer .inner-container {
 
 .footer-text {
     margin-bottom: 2rem;
+
+    width: 42%;
 }
