@@ -206,16 +206,26 @@ body {
     width: 750px;
 }
 
+/* main {
+    width: 100%;
+} */
+
 /* sections */
 section {
     width: 100%;
 }
 
 .achievements {
-    width: 1440px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 1080px;
 
     margin: 0 auto;
+
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    border: 2px solid red;
 }
 
 .align {
@@ -298,8 +308,7 @@ section.grow::after {
     padding: 10rem;
 }
 
-.inner-container,
-.achievements {
+.inner-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
