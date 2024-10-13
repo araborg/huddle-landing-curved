@@ -391,7 +391,7 @@ footer::before {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
-    column-gap: 39%;
+    column-gap: 15%;
 
     margin-bottom: 2rem;
 }
@@ -445,6 +445,13 @@ footer::before {
     font-size: 3rem;
 
     /* border: 2px solid green; */
+}
+
+.footer-text {
+    width: 75%;
+}
+
+.footer-right-side {
 }
 
 .social-icons li {
