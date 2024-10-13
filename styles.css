@@ -481,5 +481,13 @@ form input {
 button[type="submit"] {
     background-color: var(--pink);
 
-    padding: 1.2rem 0.75rem;
+    padding: 1.2rem 2rem;
+    color: var(--white-color);
+
+    font-weight: 600;
+
+    border-radius: 0.8rem;
+
+    border: none;
+    outline: none;
 }
