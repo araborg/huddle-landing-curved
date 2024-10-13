@@ -378,14 +378,20 @@ footer::before {
 }
 
 .footer-container {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(2, 1fr);
 
-    gap: 1rem;
+    column-gap: 12rem;
 
-    width: 100%;
+    justify-content: space-between;
+    justify-items: end;
 
-    /* border: 2px solid red; */
+    width: 100%; */
+
+    display: flex;
+    justify-content: space-between;
+
+    border: 2px solid red;
 }
 
 .footer-helper {
@@ -401,9 +407,14 @@ footer::before {
     display: flex;
     align-items: center;
 
-    /* border: 2px solid blue; */
-
     font-size: 1.6rem;
+}
+
+.footer-right-side {
+    border: 2px solid blue;
+
+    justify-items: center;
+    justify-self: center;
 }
 
 .telephone img,
@@ -466,6 +477,15 @@ footer::before {
 
 .social-icons li {
     margin: 0 2rem 0 0;
+}
+
+form {
+    display: flex;
+    gap: 2rem;
+}
+
+form input {
+    width: 55%;
 }
 
 /* 
