@@ -386,6 +386,8 @@ footer::before {
     grid-template-columns: repeat(2, 1fr);
 
     column-gap: 39%;
+
+    margin-bottom: 2rem;
 }
 
 .footer-text {
@@ -394,6 +396,16 @@ footer::before {
     font-weight: 400;
 
     font-size: 1.5rem;
+}
+
+.telephone,
+.email {
+    margin: 1rem 0;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 1.6rem;
 }
 
 .footer-left-side {
