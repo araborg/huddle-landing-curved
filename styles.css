@@ -446,7 +446,7 @@ footer::before {
     cursor: pointer;
 }
 
-.social-icon:hover {
+ion-icon:hover {
     color: var(--pink);
 }
 
