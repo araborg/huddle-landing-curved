@@ -148,8 +148,6 @@ body {
 
     padding: 7.5px 15px;
 
-    /* margin: 5px;///////// */
-
     cursor: pointer;
 }
 
@@ -358,18 +356,6 @@ footer {
     padding: 0 10rem;
 
     margin: 0;
-
-    /* width: 1440px;
-    max-width: 100%;
-    margin: 0 auto; */
-
-    /* 
-     width: 1440px;
-    max-width: 100%;
-    margin: 30rem auto;
-
-    padding: 10rem;
-    */
 }
 
 footer::before {
