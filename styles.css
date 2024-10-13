@@ -371,7 +371,7 @@ footer::before {
     background-position: center;
 
     position: absolute;
-    top: -50%;
+    top: -67%;
     left: 0;
 
     z-index: -1;
@@ -381,7 +381,11 @@ footer::before {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
-    border: 2px solid red;
+    gap: 1rem;
+
+    width: 100%;
+
+    /* border: 2px solid red; */
 }
 
 .footer-helper {
@@ -389,7 +393,7 @@ footer::before {
     max-width: 100%;
     /* margin: 0rem auto; */
 
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .telephone img,
@@ -406,23 +410,32 @@ footer::before {
 }
 
 .footer-right-side {
-    align-items: flex-start;
+    /* align-items: flex-start; */
+
+    border: 2px solid green;
 }
 
 .logo-svg,
 .title {
-    margin: 0;
-    /* margin: 0 0 2rem; */
+    /* margin: 0; */
+    margin: 0 0 2rem;
+
+    padding-top: 2rem;
 }
 
 .title {
     font-size: 3rem;
+
+    /* margin: 0; */
 }
 
 .footer-text {
     margin-bottom: 2rem;
 
-    width: 42%;
+    width: 60%;
+    font-weight: 400;
+
+    font-size: 1.5rem;
 }
 
 /* 
