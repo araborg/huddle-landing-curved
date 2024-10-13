@@ -206,7 +206,7 @@ section.grow::before {
     background-position: center;
 
     position: absolute;
-    top: -40%;
+    top: -35%;
     left: 0;
 
     z-index: -1;
@@ -226,7 +226,7 @@ section.grow::after {
 
     position: absolute;
     left: 0;
-    bottom: -37%;
+    bottom: -35%;
 
     z-index: -1;
 }
@@ -271,7 +271,7 @@ section.grow::after {
 .inner-container img {
     width: 100%;
 
-    max-width: 300px;
+    max-width: 500px;
 }
 
 .call-to-action {
@@ -340,9 +340,11 @@ footer::before {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
-    column-gap: 15%;
+    column-gap: 12%;
 
     margin-bottom: 2rem;
+
+    padding-left: 4rem;
 }
 
 .logo-svg,
@@ -437,6 +439,8 @@ button[type="submit"] {
 
 .attribution {
     font-size: 1.6rem;
+
+    padding-left: 4rem;
 }
 
 .attribution a {
