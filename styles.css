@@ -385,6 +385,10 @@ footer::before {
     flex-direction: column;
 
     width: 100%;
+}
 
-    /* justify-content: space-between; */
+.mini-container {
+    display: flex;
+
+    justify-content: space-between;
 }
