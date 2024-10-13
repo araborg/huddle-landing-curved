@@ -448,7 +448,7 @@ footer::before {
 }
 
 .footer-text {
-    width: 75%;
+    width: 72%;
 }
 
 .footer-right-side {
@@ -466,5 +466,5 @@ form {
 }
 
 form input {
-    width: 55%;
+    width: 75%;
 }
