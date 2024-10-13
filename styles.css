@@ -402,6 +402,8 @@ footer::before {
     align-items: center;
 
     border: 2px solid blue;
+
+    font-size: 1.6rem;
 }
 
 .telephone img,
