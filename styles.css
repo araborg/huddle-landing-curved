@@ -350,8 +350,6 @@ footer {
     position: relative;
 
     padding: 10rem;
-
-    border: 2px solid red;
 }
 
 footer::before {
@@ -367,7 +365,7 @@ footer::before {
     background-position: center;
 
     position: absolute;
-    top: -55%;
+    top: -44%;
     left: 0;
 
     z-index: -1;
