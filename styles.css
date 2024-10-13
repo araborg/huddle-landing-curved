@@ -477,3 +477,9 @@ form input {
 
     outline: none;
 }
+
+button[type="submit"] {
+    background-color: var(--pink);
+
+    padding: 1.2rem 0.75rem;
+}
