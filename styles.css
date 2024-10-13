@@ -216,10 +216,10 @@ section {
 }
 
 .achievements {
-    width: 100%;
-    max-width: 1080px;
+    width: 500px;
+    max-width: 100%;
 
-    margin: 0 auto;
+    margin: 15rem auto;
 
     /* display: flex; */
     /* justify-content: center; */
