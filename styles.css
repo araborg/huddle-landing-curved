@@ -400,5 +400,5 @@ footer::before {
     /* justify-self: start; */
 }
 .footer-right-side {
-    justify-self: end;
+    /* justify-self: end; */
 }
