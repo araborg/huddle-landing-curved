@@ -385,7 +385,11 @@ footer::before {
 }
 
 footer .inner-container div {
-    width: 40%;
+    width: 42%;
+
+    font-weight: 600;
+
+    line-height: 1.6;
 }
 
 footer .inner-container {
