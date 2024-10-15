@@ -410,7 +410,7 @@ footer::before {
 }
 
 .footer-text {
-    margin-bottom: 4rem;
+    margin: 2rem 0 4rem 0;
 
     font-weight: 400;
 
@@ -420,6 +420,8 @@ footer::before {
 
     border: 2px solid green;
 }
+
+.footer-right-side .footer-text {}
 
 .telephone,
 .email {
