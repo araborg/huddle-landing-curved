@@ -395,7 +395,7 @@ footer::before {
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 8rem;
+    gap: 4rem;
 
     margin: 0rem auto;
 
@@ -416,7 +416,7 @@ footer::before {
 
     font-size: 1.5rem;
 
-    width: 97%;
+    width: 92%;
 
     border: 2px solid green;
 }
