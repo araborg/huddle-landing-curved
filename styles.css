@@ -54,6 +54,12 @@ body {
     font-family: var(--font-body);
 
     background-color: #ffffff;
+
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100vw;
 }
 
 #header {
@@ -191,12 +197,17 @@ section.grow {
     position: relative;
 
     z-index: 1;
+
+    width: 100%;
+    max-width: 100%;
 }
 
 section.grow::before {
     content: "";
 
     width: 100%;
+    max-width: 100%;
+
     height: 50%;
 
     background-image: url(./images/bg-section-top-desktop-1.svg);
@@ -208,6 +219,7 @@ section.grow::before {
     position: absolute;
     top: -35%;
     left: 0;
+    right: 0;
 
     z-index: -1;
 }
@@ -227,6 +239,7 @@ section.grow::after {
     position: absolute;
     left: 0;
     bottom: -35%;
+    right: 0;
 
     z-index: -1;
 }
