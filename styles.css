@@ -287,13 +287,9 @@ section.grow::after {
 
 .inner-container img {
     width: 100%;
-
-    /* max-width: 500px; */
 }
 
 .call-to-action {
-    /* width: 100%; */
-
     font-size: 2rem;
 
     margin-bottom: 30rem;
@@ -309,7 +305,7 @@ section.grow::after {
 
 /* footer */
 footer {
-    /* width: 100%; */
+    width: 100%;
 
     background-color: var(--very-dark-cyan);
 
@@ -343,8 +339,6 @@ footer::before {
     display: flex;
 
     flex-direction: column;
-
-    /* width: 100%; */
 }
 
 .footer-container div {
