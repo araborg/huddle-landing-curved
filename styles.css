@@ -136,7 +136,7 @@ body {
 .call-to-action {
     font-family: var(--font-headings);
 
-    font-size: calc(1rem + 3vw);
+    font-size: calc(0.9rem + 4vw);
 
     text-align: center;
 }
@@ -144,7 +144,7 @@ body {
 .title-description {
     font-size: 1.6rem;
 
-    /* width: 50%; */
+    width: calc(5rem + 35vw);
 
     margin: 2rem 0;
 
@@ -494,6 +494,7 @@ button[type="submit"] {
 }
 
 /* media queries */
+
 @media screen and (max-width: 375px) {
     body {
         background-color: red;
