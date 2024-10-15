@@ -283,7 +283,6 @@ section.grow::after {
     margin: 30rem auto;
 
     padding: 10rem;
-    
 }
 
 .inner-container {
@@ -397,11 +396,12 @@ footer::before {
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
 
+    justify-items: center;
+
     margin: 0rem auto;
 
     /* padding: 10rem; */
 }
-
 
 .title {
     margin: 0 0 2rem;
@@ -416,15 +416,13 @@ footer::before {
 
     font-size: 1.5rem;
 
-    width: 92%;
-
     border: 2px solid green;
 }
 
-.footer-right-side .footer-text {
-        /* margin-top: -.5rem; */
+/* .footer-right-side .footer-text { */
+/* margin-top: -.5rem; */
 
-}
+/* } */
 
 .telephone,
 .email {
@@ -453,9 +451,13 @@ footer::before {
     font-size: 3rem;
 }
 
+.footer-left-side,
 .footer-right-side {
     /* width: 72%; */
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
+
+    width: 100%;
+    /* max-width: 600px; */
 }
 
 .social-icons li {
@@ -470,7 +472,6 @@ footer::before {
     font-size: calc(0.8rem + 2vw);
 
     margin-top: -1rem;
-
 
     /* text-align: center; */
 }
@@ -500,7 +501,7 @@ form input {
 button[type="submit"] {
     background-color: var(--pink);
 
-    padding: .8rem 1.6rem;
+    padding: 0.8rem 1.6rem;
     color: var(--white-color);
 
     font-weight: 600;
@@ -526,49 +527,34 @@ button[type="submit"] {
 /* media queries */
 /* font-size: calc(0.9rem + 4vw); */
 
-@media screen and (max-width: 1350px){
+@media screen and (max-width: 1350px) {
     footer::before {
-        
-    
-      
         top: -23.8%;
-        
+    }
 }
 
-@media screen and (max-width: 1210px){
+@media screen and (max-width: 1210px) {
     footer::before {
-        
-    
-      
         top: -23%;
-        
+    }
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1100px) {
     footer::before {
-        
-    
-      
         top: -22.5%;
-        
+    }
 }
 
-@media screen and (max-width: 1030px){
+@media screen and (max-width: 1030px) {
     footer::before {
-        
-    
-      
         top: -22%;
-        
+    }
 }
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 990px) {
     footer::before {
-        
-    
-      
         top: -21.5%;
-        
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -578,8 +564,8 @@ button[type="submit"] {
 }
 
 @media screen and (max-width: 860px) {
-    .title {
-    }
+    /* .title { */
+    /* } */
 }
 
 @media screen and (max-width: 860px) {
