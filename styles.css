@@ -490,7 +490,7 @@ form {
 }
 
 form input {
-    width: 100%;
+    width: 65%;
 
     padding: 1rem 0.75rem;
     margin-right: 2rem;
@@ -506,12 +506,13 @@ form input {
 button[type="submit"] {
     background-color: var(--pink);
 
-    padding: 0.8rem 1.6rem;
+    padding: 0.8rem 3rem;
     color: var(--white-color);
 
     font-weight: 600;
 
     border-radius: 0.4rem;
+    /* font-size: 1rem; */
 
     border: none;
     outline: none;
