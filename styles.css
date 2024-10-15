@@ -61,6 +61,8 @@ body {
     font-family: var(--font-body);
 
     background-color: #ffffff;
+
+    overflow-x: hidden;
 }
 
 .container {
@@ -280,9 +282,14 @@ section.grow::after {
 }
 
 .text .description {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 
     line-height: 1.4;
+
+    width: 100%;
+    max-width: 65rem;
+
+    border: 2px solid green;
 }
 
 .inner-container img {
@@ -366,7 +373,7 @@ footer::before {
 .footer-text {
     margin: 2rem 0 4rem 0;
 
-    width: 69%;
+    width: 67%;
 
     font-weight: 400;
 
@@ -501,6 +508,12 @@ button[type="submit"] {
     }
 }
 
+@media screen and (max-width: 900px) {
+    /* footer::before {
+        top: -21.5%;
+    } */
+}
+
 @media screen and (max-width: 375px) {
     body {
         background-color: red;
@@ -508,6 +521,12 @@ button[type="submit"] {
 }
 
 @media screen and (max-width: 860px) {
+    .inner-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
     /* .title { */
     /* } */
 }
