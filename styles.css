@@ -413,6 +413,8 @@ footer::before {
 .footer-text {
     margin: 2rem 0 4rem 0;
 
+    width: 69%;
+
     font-weight: 400;
 
     font-size: 1.5rem;
