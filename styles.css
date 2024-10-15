@@ -125,7 +125,7 @@ body {
 .title-description {
     font-size: calc(0.5rem + 0.9vw);
 
-    /* width: calc(0.5rem + 40vw); */
+    width: calc(0.5rem + 40vw);
 
     margin: 2rem 0;
 
@@ -268,7 +268,7 @@ section.grow::after {
 .inner-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 3rem;
 
     /* width: 100%; */
 }
@@ -291,7 +291,12 @@ section.grow::after {
 .text .description {
     font-size: 1.5rem;
 
+    /* width: 100%; */
+    /* max-width: 1200px; */
+
     line-height: 1.6;
+
+    /* border: 2px solid green; */
 }
 
 .inner-container img {
@@ -398,14 +403,7 @@ footer::before {
     font-weight: 400;
 
     font-size: 1.5rem;
-
-    border: 2px solid green;
 }
-
-/* .footer-right-side .footer-text { */
-/* margin-top: -.5rem; */
-
-/* } */
 
 .telephone,
 .email {
