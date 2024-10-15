@@ -136,15 +136,15 @@ body {
 .call-to-action {
     font-family: var(--font-headings);
 
-    font-size: calc(0.8rem + 3.2vw);
+    font-size: calc(0.8rem + 3vw);
 
     text-align: center;
 }
 
 .title-description {
-    font-size: calc(0.5rem + 1vw);
+    font-size: calc(0.5rem + 0.9vw);
 
-    width: calc(0.5rem + 38vw);
+    width: calc(0.5rem + 40vw);
 
     margin: 2rem 0;
 
