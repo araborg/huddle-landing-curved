@@ -253,8 +253,6 @@ section.grow::after {
 }
 
 .helper {
-    /* width: 100%; */
-    /* max-width: 1440px; */
     margin: 30rem auto;
 
     padding: 10rem;
