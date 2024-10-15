@@ -402,7 +402,7 @@ footer::before {
     /* padding: 10rem; */
 }
 
-.logo-svg,
+
 .title {
     margin: 0 0 2rem;
 
@@ -457,13 +457,12 @@ footer::before {
     cursor: pointer;
 }
 
-.footer-title
-{
+.footer-title {
     font-family: var(--font-headings);
 
     font-size: calc(0.8rem + 3vw);
 
-    text-align: center;
+    /* text-align: center; */
 }
 
 ion-icon:hover {
