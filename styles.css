@@ -111,8 +111,6 @@ body {
     flex-direction: column;
 
     padding-top: 15rem;
-
-    border: 2px solid red;
 }
 
 .title,
@@ -174,10 +172,10 @@ section {
 }
 
 .achievements {
-    /* width: 600px; */
-    /* max-width: 100%; */
+    width: 600px;
+    max-width: 100%;
 
-    margin: 15rem auto;
+    margin: 10rem auto;
 }
 
 .align {
