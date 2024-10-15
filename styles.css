@@ -437,8 +437,9 @@ footer::before {
     font-size: 3rem;
 }
 
-.footer-text {
+.footer-right-side {
     /* width: 72%; */
+    border: 2px solid purple;
 }
 
 .social-icons li {
