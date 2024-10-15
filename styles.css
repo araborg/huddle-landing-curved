@@ -348,23 +348,11 @@ footer::before {
 }
 
 .mini-container {
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
-    column-gap: 12%;
-
-    margin-bottom: 2rem;
-
-    padding-left: 4rem; */
-
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
 
     justify-items: center;
-    /* align-items: center; */
-
-    /* margin: 0 auto; */
 
     padding: 0 4rem;
 }
