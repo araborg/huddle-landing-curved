@@ -125,7 +125,7 @@ body {
 .title-description {
     font-size: calc(0.5rem + 0.9vw);
 
-    width: calc(0.5rem + 40vw);
+    /* width: calc(0.5rem + 40vw); */
 
     margin: 2rem 0;
 
