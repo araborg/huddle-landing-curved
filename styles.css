@@ -416,7 +416,7 @@ footer::before {
 
     font-size: 1.5rem;
 
-    width: 92%;
+    width: 97%;
 
     border: 2px solid green;
 }
@@ -477,9 +477,10 @@ form {
 }
 
 form input {
-    /* width: 60%; */
+    width: 60%;
 
-    padding: 1.2rem 0.75rem;
+    padding: 1rem 0.75rem;
+    margin-right: 2rem;
 
     font-size: 1.6rem;
 
@@ -492,7 +493,7 @@ form input {
 button[type="submit"] {
     background-color: var(--pink);
 
-    padding: 1.2rem 2rem;
+    padding: .8rem 1.6rem;
     color: var(--white-color);
 
     font-weight: 600;
