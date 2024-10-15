@@ -48,6 +48,14 @@ https://pages.github.com/
 
 html {
     font-size: 62.5%;
+
+    /* width: 100vw; */
+
+    /* overflow: hidden; */
+
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
 }
 
 body {
@@ -55,13 +63,13 @@ body {
 
     background-color: #ffffff;
 
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 
-    max-width: 1440px;
+    /* max-width: 1440px; */
 }
 
 .container {
-    width: 100%;
+    /* width: 100%; */
 }
 
 #header {
@@ -117,7 +125,7 @@ body {
 .title-description {
     font-size: 1.6rem;
 
-    width: 50%;
+    /* width: 50%; */
 
     margin: 2rem 0;
 
@@ -150,7 +158,7 @@ body {
 }
 
 .hero-img {
-    width: 750px;
+    width: 60%;
 }
 
 /* main */
@@ -159,14 +167,14 @@ body {
 section {
     width: 100%;
 
-    max-width: 1440px;
+    /* max-width: 1440px; */
 
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .achievements {
-    width: 600px;
-    max-width: 100%;
+    /* width: 600px; */
+    /* max-width: 100%; */
 
     margin: 15rem auto;
 }
@@ -204,15 +212,15 @@ section.grow {
 
     z-index: 1;
 
-    width: 1440px;
-    max-width: 100%;
+    /* width: 1440px; */
+    /* max-width: 100%; */
 }
 
 section.grow::before {
     content: "";
 
-    width: 100%;
-    max-width: 100%;
+    /* width: 100%; */
+    /* max-width: 100%; */
 
     height: 50%;
 
@@ -251,8 +259,8 @@ section.grow::after {
 }
 
 .helper {
-    width: 100%;
-    max-width: 1440px;
+    /* width: 100%; */
+    /* max-width: 1440px; */
     margin: 30rem auto;
 
     padding: 10rem;
