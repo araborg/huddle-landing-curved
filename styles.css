@@ -262,8 +262,6 @@ section.grow::after {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
-
-    /* width: 100%; */
 }
 
 .inner-container {
@@ -284,12 +282,7 @@ section.grow::after {
 .text .description {
     font-size: 1.5rem;
 
-    /* width: 100%; */
-    /* max-width: 1200px; */
-
-    line-height: 1.6;
-
-    /* border: 2px solid green; */
+    line-height: 1.4;
 }
 
 .inner-container img {
