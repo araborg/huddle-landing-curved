@@ -238,7 +238,7 @@ section.grow {
 section.grow::before {
     content: "";
 
-    /* width: 100%; */
+    width: 100%;
     /* max-width: 100%; */
 
     height: 50%;
@@ -260,7 +260,7 @@ section.grow::before {
 section.grow::after {
     content: "";
 
-    /* width: 100%; */
+    width: 100%;
     height: 50%;
 
     background-image: url(./images/bg-section-bottom-desktop-1.svg);
@@ -271,7 +271,7 @@ section.grow::after {
 
     position: absolute;
     left: 0;
-    bottom: -35%;
+    bottom: -32%;
     right: 0;
 
     z-index: -1;
@@ -352,8 +352,8 @@ footer {
 footer::before {
     content: "";
 
-    /* width: 100%; */
-    height: 70%;
+    width: 100%;
+    height: 50%;
 
     background-image: url(./images/bg-footer-top-desktop.svg);
 
@@ -362,7 +362,7 @@ footer::before {
     background-position: center;
 
     position: absolute;
-    top: -44%;
+    top: -34.5%;
     left: 0;
 
     z-index: -1;
