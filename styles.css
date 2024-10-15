@@ -457,6 +457,15 @@ footer::before {
     cursor: pointer;
 }
 
+.footer-title
+{
+    font-family: var(--font-headings);
+
+    font-size: calc(0.8rem + 3vw);
+
+    text-align: center;
+}
+
 ion-icon:hover {
     color: var(--pink);
 }
