@@ -241,7 +241,7 @@ section.grow::before {
 section.grow::after {
     content: "";
 
-    width: 100%;
+    /* width: 100%; */
     height: 50%;
 
     background-image: url(./images/bg-section-bottom-desktop-1.svg);
@@ -271,7 +271,7 @@ section.grow::after {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 
-    width: 100%;
+    /* width: 100%; */
 }
 
 .inner-container {
@@ -298,11 +298,11 @@ section.grow::after {
 .inner-container img {
     width: 100%;
 
-    max-width: 500px;
+    /* max-width: 500px; */
 }
 
 .call-to-action {
-    width: 100%;
+    /* width: 100%; */
 
     font-size: 2rem;
 
@@ -319,7 +319,7 @@ section.grow::after {
 
 /* footer */
 footer {
-    width: 100%;
+    /* width: 100%; */
 
     background-color: var(--very-dark-cyan);
 
@@ -333,7 +333,7 @@ footer {
 footer::before {
     content: "";
 
-    width: 100%;
+    /* width: 100%; */
     height: 70%;
 
     background-image: url(./images/bg-footer-top-desktop.svg);
@@ -354,7 +354,7 @@ footer::before {
 
     flex-direction: column;
 
-    width: 100%;
+    /* width: 100%; */
 }
 
 .footer-container div {
@@ -401,7 +401,7 @@ footer::before {
 
 .telephone img,
 .email img {
-    width: 2rem;
+    /* width: 2rem; */
 
     margin-right: 2rem;
 }
@@ -417,7 +417,7 @@ footer::before {
 }
 
 .footer-text {
-    width: 72%;
+    /* width: 72%; */
 }
 
 .social-icons li {
@@ -436,7 +436,7 @@ form {
 }
 
 form input {
-    width: 60%;
+    /* width: 60%; */
 
     padding: 1.2rem 0.75rem;
 
