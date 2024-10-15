@@ -497,3 +497,16 @@ button[type="submit"] {
         background-color: red;
     }
 }
+
+@media screen and (max-width: 860px) {
+    .mini-container {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        column-gap: 12%;
+
+        margin-bottom: 2rem;
+
+        padding-left: 4rem;
+    }
+}
