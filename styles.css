@@ -421,7 +421,10 @@ footer::before {
     border: 2px solid green;
 }
 
-.footer-right-side .footer-text {}
+.footer-right-side .footer-text {
+        /* margin-top: -.5rem; */
+
+}
 
 .telephone,
 .email {
@@ -464,7 +467,10 @@ footer::before {
 .footer-title {
     font-family: var(--font-headings);
 
-    font-size: calc(0.8rem + 3vw);
+    font-size: calc(0.8rem + 2vw);
+
+    margin-top: -1rem;
+
 
     /* text-align: center; */
 }
@@ -475,17 +481,17 @@ ion-icon:hover {
 
 form {
     display: flex;
-    gap: 2rem;
 }
 
 form input {
+    width: 100%;
 
     padding: 1rem 0.75rem;
     margin-right: 2rem;
 
     font-size: 1.6rem;
 
-    border-radius: 0.8rem;
+    border-radius: 0.4rem;
     border: 2px solid var(--white-color);
 
     outline: none;
@@ -499,7 +505,7 @@ button[type="submit"] {
 
     font-weight: 600;
 
-    border-radius: 0.8rem;
+    border-radius: 0.4rem;
 
     border: none;
     outline: none;
