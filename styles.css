@@ -136,15 +136,15 @@ body {
 .call-to-action {
     font-family: var(--font-headings);
 
-    font-size: calc(0.9rem + 4vw);
+    font-size: calc(0.8rem + 3.2vw);
 
     text-align: center;
 }
 
 .title-description {
-    font-size: 1.6rem;
+    font-size: calc(0.5rem + 1vw);
 
-    width: calc(5rem + 35vw);
+    width: calc(0.5rem + 38vw);
 
     margin: 2rem 0;
 
@@ -494,6 +494,7 @@ button[type="submit"] {
 }
 
 /* media queries */
+/* font-size: calc(0.9rem + 4vw); */
 
 @media screen and (max-width: 375px) {
     body {
