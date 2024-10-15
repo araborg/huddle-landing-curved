@@ -56,10 +56,12 @@ body {
     background-color: #ffffff;
 
     overflow-x: hidden;
+
+    max-width: 1440px;
 }
 
 .container {
-    width: 100vw;
+    width: 100%;
 }
 
 #header {
@@ -156,6 +158,10 @@ body {
 /* sections */
 section {
     width: 100%;
+
+    max-width: 1440px;
+
+    margin: 0 auto;
 }
 
 .achievements {
@@ -198,7 +204,7 @@ section.grow {
 
     z-index: 1;
 
-    width: 100%;
+    width: 1440px;
     max-width: 100%;
 }
 
@@ -245,8 +251,8 @@ section.grow::after {
 }
 
 .helper {
-    width: 1440px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 1440px;
     margin: 30rem auto;
 
     padding: 10rem;
