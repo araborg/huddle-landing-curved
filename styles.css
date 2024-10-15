@@ -283,6 +283,7 @@ section.grow::after {
     margin: 30rem auto;
 
     padding: 10rem;
+    
 }
 
 .inner-container {
@@ -383,14 +384,22 @@ footer::before {
 }
 
 .mini-container {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(2, 1fr);
 
     column-gap: 12%;
 
     margin-bottom: 2rem;
 
-    padding-left: 4rem;
+    padding-left: 4rem; */
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+    margin: 0rem auto;
+
+    padding: 10rem;
 }
 
 .logo-svg,
