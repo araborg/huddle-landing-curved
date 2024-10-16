@@ -484,19 +484,19 @@ button[type="submit"] {
 
 @media screen and (max-width: 1215px) {
     footer::before {
-        top: -22.5%;
+        top: -24%;
     }
 }
 
 @media screen and (max-width: 1100px) {
     footer::before {
-        top: -22.5%;
+        top: -23.5%;
     }
 }
 
 @media screen and (max-width: 1030px) {
     footer::before {
-        top: -22%;
+        top: -22.5%;
     }
 }
 
