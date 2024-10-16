@@ -517,7 +517,7 @@ button[type="submit"] {
     }
 
     #header {
-        padding: 1rem;
+        padding: 2.5rem;
     }
 
     .title,
@@ -526,8 +526,16 @@ button[type="submit"] {
 
         font-size: calc(0.8rem + 3vw);
 
-        width: 65vw;
+        /* text-align: center; */
+    }
 
+    .call-to-action {
+        width: 100%;
+    }
+
+    .title,
+    .center {
+        width: 65vw;
         text-align: center;
     }
 
