@@ -519,7 +519,7 @@ button[type="submit"] {
     }
 
     .title-description {
-        width: 40vw;
+        width: 60vw;
     }
 
     .inner-container {
@@ -611,6 +611,10 @@ button[type="submit"] {
 @media screen and (max-width: 375px) {
     body {
         background-color: red;
+    }
+
+    .title-description {
+        width: 50vw;
     }
 }
 
