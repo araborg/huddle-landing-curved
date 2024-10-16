@@ -552,12 +552,20 @@ button[type="submit"] {
         display: flex;
 
         flex-direction: column;
+
+        width: 100%;
+    }
+
+    form input {
+        width: 100%;
+
+        margin-bottom: 2rem;
     }
 
     button[type="submit"] {
         /* background-color: var(--pink); */
 
-        /* padding: 0.8rem 3rem;/ */
+        padding: 0.8rem 3rem;
         /* color: var(--white-color); */
 
         /* font-weight: 600; */
@@ -570,7 +578,9 @@ button[type="submit"] {
 
         /* cursor: pointer; */
 
-        width: 150px;
+        width: 100px;
+        align-self: flex-end;
+        align-items: center;
 
         border: 2px solid blue;
     }
