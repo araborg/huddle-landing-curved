@@ -287,9 +287,7 @@ section.grow::after {
     line-height: 1.4;
 
     width: 100%;
-    max-width: 65rem;
-
-    border: 2px solid green;
+    max-width: 68rem;
 }
 
 .inner-container img {
