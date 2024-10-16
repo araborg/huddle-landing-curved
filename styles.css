@@ -545,6 +545,7 @@ button[type="submit"] {
     }
 
     .footer-right-side {
+        grid-row: 1/2;
     }
 }
 
