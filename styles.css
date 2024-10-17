@@ -583,6 +583,9 @@ button[type="submit"] {
         /* justify-items: center; */
 
         width: 100%;
+        border: 2px solid white;
+
+        /* margin: 0 auto; */
 
         /* padding: 0 4rem; */
     }
