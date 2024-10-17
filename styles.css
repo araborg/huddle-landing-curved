@@ -575,6 +575,10 @@ button[type="submit"] {
         row-gap: 3rem;
     }
 
+    .footer-container {
+        /* justify-items: center; */
+    }
+
     .mini-container {
         display: grid;
         grid-template-columns: 1fr;
