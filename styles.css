@@ -294,6 +294,8 @@ section.grow::after {
 }
 
 .call-to-action {
+    margin-bottom: 30rem;
+
     font-size: calc(0.5rem + 2vw);
 
     text-align: center;
@@ -521,8 +523,7 @@ button[type="submit"] {
         padding: 2.5rem;
     }
 
-    .title,
-    .call-to-action {
+    .title {
         font-family: var(--font-headings);
 
         font-size: calc(0.8rem + 3vw);
@@ -532,6 +533,8 @@ button[type="submit"] {
 
     .call-to-action {
         width: 100%;
+
+        font-size: calc(0.5rem + 2vw);
     }
 
     .center {
