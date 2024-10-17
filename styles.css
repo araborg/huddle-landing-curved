@@ -576,7 +576,10 @@ button[type="submit"] {
     }
 
     .footer-container {
+        /* display: grid; */
         /* justify-items: center; */
+        /* justify-content: center; */
+        /* justify-self: center; */
     }
 
     .mini-container {
@@ -586,10 +589,15 @@ button[type="submit"] {
 
         /* justify-items: center; */
 
-        width: 100%;
+        width: 65vw;
         border: 2px solid white;
 
-        /* margin: 0 auto; */
+        /* display: flex; */
+        /* flex-direction: column; */
+
+        /* justify-content: center; */
+
+        margin: 0 auto;
 
         /* padding: 0 4rem; */
     }
