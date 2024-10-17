@@ -351,6 +351,8 @@ footer::before {
     font-weight: 600;
 
     line-height: 1.6;
+
+    width: 100%;
 }
 
 .mini-container {
@@ -436,7 +438,8 @@ form {
 }
 
 form input {
-    width: 65%;
+    width: 100%;
+    max-width: 300px;
 
     padding: 1rem 0.75rem;
     margin-right: 2rem;
@@ -628,7 +631,9 @@ button[type="submit"] {
     }
 
     .footer-right-side {
-        grid-row: 1/2;
+        grid-row: 1 / 2;
+
+        width: 100%;
 
         margin-bottom: 2rem;
     }
@@ -647,7 +652,7 @@ button[type="submit"] {
         width: 100%;
 
         margin-bottom: 2rem;
-        margin-left: 0;
+        margin-right: 0;
     }
 
     button[type="submit"] {
