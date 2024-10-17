@@ -544,19 +544,8 @@ button[type="submit"] {
     }
 
     section.grow::before {
-        content: "";
-
-        width: 100%;
-        height: 50%;
-
-        background-image: url(./images/bg-section-top-desktop-1.svg);
-
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-
         position: absolute;
-        top: -35%;
+        top: -28%;
         left: 0;
         right: 0;
 
@@ -565,7 +554,7 @@ button[type="submit"] {
 
     section.grow::after {
         left: 0;
-        bottom: -32%;
+        bottom: -28%;
         right: 0;
 
         z-index: -1;
