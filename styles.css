@@ -115,8 +115,7 @@ body {
     padding-top: 15rem;
 }
 
-.title,
-.call-to-action {
+.title {
     font-family: var(--font-headings);
 
     font-size: calc(0.8rem + 3vw);
@@ -295,9 +294,9 @@ section.grow::after {
 }
 
 .call-to-action {
-    font-size: 2rem;
+    font-size: calc(0.5rem + 2vw);
 
-    margin-bottom: 30rem;
+    text-align: center;
 }
 
 .cta {
