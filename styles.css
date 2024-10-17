@@ -533,9 +533,12 @@ button[type="submit"] {
         width: 100%;
     }
 
-    .title,
     .center {
-        width: 65vw;
+        width: 100%;
+    }
+
+    .title {
+        /* width: 65vw; */
         text-align: center;
     }
 
