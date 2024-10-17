@@ -677,21 +677,6 @@ button[type="submit"] {
     }
 }
 
-@media screen and (max-width: 375px) {
-    body {
-        /* background-color: red; */
-    }
-
-    .title-description {
-        width: 50vw;
-    }
-}
-
-@media screen and (max-width: 860px) {
-    /* .title { */
-    /* } */
-}
-
 @media screen and (max-width: 860px) {
     .mini-container {
         display: grid;
@@ -702,5 +687,15 @@ button[type="submit"] {
         margin-bottom: 2rem;
 
         padding-left: 4rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        /* background-color: red; */
+    }
+
+    .title-description {
+        width: 50vw;
     }
 }
