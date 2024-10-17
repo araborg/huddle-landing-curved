@@ -430,6 +430,8 @@ ion-icon:hover {
 
 form {
     display: flex;
+
+    width: 100%;
 }
 
 form input {
@@ -643,6 +645,7 @@ button[type="submit"] {
         width: 100%;
 
         margin-bottom: 2rem;
+        margin-left: 0;
     }
 
     button[type="submit"] {
@@ -665,6 +668,10 @@ button[type="submit"] {
         align-items: center;
 
         border: 2px solid blue;
+    }
+
+    .footer-text {
+        width: 100%;
     }
 }
 
