@@ -535,6 +535,10 @@ button[type="submit"] {
 
     .center {
         width: 100%;
+
+        max-width: 60%;
+
+        margin: 0 auto;
     }
 
     .title {
