@@ -363,6 +363,12 @@ footer::before {
     }
 }
 
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
 .footer-container {
     display: flex;
 
