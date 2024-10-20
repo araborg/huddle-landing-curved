@@ -341,6 +341,14 @@ footer::before {
     z-index: -1;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
 .footer-container {
     display: flex;
 
