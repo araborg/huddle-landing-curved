@@ -351,6 +351,12 @@ footer::before {
     padding-right: 0.5rem;
 }
 
+@media (min-width: 457px) {
+    .container {
+        max-width: 457px;
+    }
+}
+
 .footer-container {
     display: flex;
 
