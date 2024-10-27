@@ -139,14 +139,19 @@ button {
 
 .layout {
     margin-bottom: 3em;
+}
 
+.flex {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
+
+    /* justify-content: center; */
 }
 
 /* header */
-#header {
+#header,
+section {
     text-align: center;
 }
 
