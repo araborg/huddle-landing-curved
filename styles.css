@@ -131,6 +131,8 @@ button {
 .bg-frame {
     margin: 10em 0;
 
+    padding: 5em 0;
+
     /* border: 2px solid red; */
 }
 
@@ -216,7 +218,6 @@ section {
 }
 
 .description {
-    padding-bottom: 3em;
 }
 
 .bg-frame {
@@ -237,7 +238,7 @@ section {
 
     position: absolute;
     left: 0;
-    top: -22%;
+    top: -16%;
     z-index: 5;
 
     width: 100%;
