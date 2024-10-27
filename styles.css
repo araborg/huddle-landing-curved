@@ -382,4 +382,94 @@ button[type="submit"] {
 }
 
 @media (min-width: 375px) {
+    .bg-frame.one::before {
+        content: "";
+
+        background-image: url(./images/bg-section-top-mobile-1.svg);
+        background-repeat: no-repeat;
+
+        position: absolute;
+        left: 0;
+        top: -15%;
+        z-index: 5;
+
+        width: 100%;
+        height: 50%;
+    }
+
+    .bg-frame.one::after {
+        content: "";
+
+        background-image: url(./images/bg-section-bottom-mobile-1.svg);
+        background-repeat: no-repeat;
+
+        position: absolute;
+        left: 0;
+        bottom: -50%;
+        z-index: 1;
+
+        width: 100%;
+        height: 50%;
+    }
+
+    .bg-frame.two::before {
+        content: "";
+
+        background-image: url(./images/bg-section-top-mobile-2.svg);
+        background-repeat: no-repeat;
+
+        position: absolute;
+        left: 0;
+        top: -14.5%;
+        z-index: 5;
+
+        width: 100%;
+        height: 50%;
+    }
+
+    .bg-frame.two::before {
+        content: "";
+
+        background-image: url(./images/bg-section-top-mobile-2.svg);
+        background-repeat: no-repeat;
+
+        position: absolute;
+        left: 0;
+        top: -14.5%;
+        z-index: 5;
+
+        width: 100%;
+        height: 50%;
+    }
+
+    .bg-frame.two::after {
+        content: "";
+
+        background-image: url(./images/bg-section-bottom-mobile-2.svg);
+        background-repeat: no-repeat;
+
+        position: absolute;
+        left: 0;
+        bottom: -50%;
+        z-index: 1;
+
+        width: 100%;
+        height: 50%;
+    }
+
+    footer::before {
+        content: "";
+
+        background-image: url(./images/bg-footer-top-mobile.svg);
+        background-repeat: no-repeat;
+
+        z-index: 1;
+
+        position: absolute;
+        left: 0;
+        top: -6%;
+
+        width: 100%;
+        height: 10%;
+    }
 }
