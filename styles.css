@@ -267,8 +267,6 @@ section {
 
     width: 100%;
     height: 50%;
-
-    /* border: 2px solid purple; */
 }
 
 /* footer */
@@ -288,7 +286,7 @@ footer::before {
 
     background-image: url(./images/bg-footer-top-mobile.svg);
     background-repeat: no-repeat;
-    /* background-size: cover; */
+
     z-index: 1;
 
     position: absolute;
