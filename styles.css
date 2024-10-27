@@ -74,7 +74,6 @@ h1 {
 
 h2 {
     font-size: calc(1.2rem + 2vw);
-    /* font-family: var(); */
 }
 
 h3 {
@@ -119,13 +118,10 @@ button {
 }
 
 /* layout */
-
 .bg-frame {
     margin: 10em 0;
 
     padding: 5em 0;
-
-    /* border: 2px solid red; */
 }
 
 .container {
