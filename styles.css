@@ -236,7 +236,7 @@ section {
     border: 2px solid red;
 }
 
-.bg-frame::after {
+.bg-frame-one::after {
     content: "";
 
     background-image: url(./images/bg-section-bottom-mobile-1.svg);
@@ -244,9 +244,11 @@ section {
 
     position: absolute;
     left: 0;
-    top: -20%;
+    bottom: -50%;
     z-index: 1;
 
     width: 100%;
     height: 50%;
+
+    border: 2px solid purple;
 }
