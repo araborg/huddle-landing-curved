@@ -381,16 +381,16 @@ button[type="submit"] {
     color: var(--white-color);
 }
 
-@media (min-width: 375px) {
+@media (min-width: 376px) {
     .bg-frame.one::before {
         content: "";
 
-        background-image: url(./images/bg-section-top-mobile-1.svg);
+        background-image: url(./images/bg-section-top-desktop-1.svg);
         background-repeat: no-repeat;
 
         position: absolute;
         left: 0;
-        top: -15%;
+        top: -12%;
         z-index: 5;
 
         width: 100%;
@@ -400,7 +400,7 @@ button[type="submit"] {
     .bg-frame.one::after {
         content: "";
 
-        background-image: url(./images/bg-section-bottom-mobile-1.svg);
+        background-image: url(./images/bg-section-bottom-desktop-1.svg);
         background-repeat: no-repeat;
 
         position: absolute;
@@ -415,27 +415,12 @@ button[type="submit"] {
     .bg-frame.two::before {
         content: "";
 
-        background-image: url(./images/bg-section-top-mobile-2.svg);
+        background-image: url(./images/bg-section-top-desktop-2.svg);
         background-repeat: no-repeat;
 
         position: absolute;
         left: 0;
-        top: -14.5%;
-        z-index: 5;
-
-        width: 100%;
-        height: 50%;
-    }
-
-    .bg-frame.two::before {
-        content: "";
-
-        background-image: url(./images/bg-section-top-mobile-2.svg);
-        background-repeat: no-repeat;
-
-        position: absolute;
-        left: 0;
-        top: -14.5%;
+        top: -12%;
         z-index: 5;
 
         width: 100%;
@@ -445,7 +430,7 @@ button[type="submit"] {
     .bg-frame.two::after {
         content: "";
 
-        background-image: url(./images/bg-section-bottom-mobile-2.svg);
+        background-image: url(./images/bg-section-bottom-desktop-2.svg);
         background-repeat: no-repeat;
 
         position: absolute;
@@ -460,16 +445,16 @@ button[type="submit"] {
     footer::before {
         content: "";
 
-        background-image: url(./images/bg-footer-top-mobile.svg);
+        background-image: url(./images/bg-footer-top-desktop.svg);
         background-repeat: no-repeat;
 
         z-index: 1;
 
         position: absolute;
         left: 0;
-        top: -6%;
+        top: -16.2%;
 
         width: 100%;
-        height: 10%;
+        height: 50%;
     }
 }
