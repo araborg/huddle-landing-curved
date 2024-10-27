@@ -308,10 +308,6 @@ footer::before {
     margin-bottom: 8em;
 }
 
-.logo-svg {
-    /* height: 1em; */
-}
-
 .telephone,
 .email {
     display: flex;
@@ -375,8 +371,6 @@ button[type="submit"] {
     align-self: flex-end;
 
     padding: 0.8em 2em;
-
-    /* border: 2px solid green; */
 
     background-color: var(--pink);
     border-radius: 0.3em;
