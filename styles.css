@@ -97,7 +97,13 @@ button {
 
     padding: 0.25em 0.5em;
 
-    background-color: none;
+    background: none;
+    /* border: none; */
+}
+
+.title-btn,
+.cta {
+    background-color: var(--pink);
 }
 
 /* layout */
