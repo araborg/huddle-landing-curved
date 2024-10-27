@@ -351,6 +351,11 @@ footer::before {
     margin: 1em 0;
 }
 
+.telephone img,
+.email img {
+    margin-right: 0.75em;
+}
+
 .footer-title {
     margin: 0;
     text-transform: uppercase;
