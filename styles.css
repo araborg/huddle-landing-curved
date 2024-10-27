@@ -160,8 +160,10 @@ section {
 
 .title-description {
     margin-top: 2em;
-
+    font-size: calc(0.7rem + 1vw);
     margin-bottom: 4em;
+
+    font-weight: 500;
 }
 
 .hero-img {
@@ -187,6 +189,8 @@ section {
 
 .align p {
     text-align: center;
+
+    color: grey;
 }
 
 .align span {
@@ -375,4 +379,7 @@ button[type="submit"] {
     background-color: var(--pink);
     border-radius: 0.3em;
     color: var(--white-color);
+}
+
+@media (min-width: 375px) {
 }
