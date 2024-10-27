@@ -70,14 +70,15 @@ img {
 }
 
 /* typography */
-h1,
+/* h1,
 h2,
 h3 {
     font-family: var(--font-headings);
-}
+} */
 
 h1 {
     font-size: calc(1.4rem + 2vw);
+    font-family: var(--font-headings);
 }
 
 h2 {
