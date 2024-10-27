@@ -193,3 +193,7 @@ button {
 .align p {
     text-align: center;
 }
+
+.align span {
+    display: block;
+}
