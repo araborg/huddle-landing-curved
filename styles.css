@@ -213,7 +213,7 @@ section {
 }
 
 .bg-frame {
-    background-color: blue;
+    /* background-color: blue; */
 
     position: relative;
 }
@@ -223,6 +223,8 @@ section {
     background-image: url(./images/bg-section-top-mobile-1.svg);
 
     position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .bg-frame::after {
