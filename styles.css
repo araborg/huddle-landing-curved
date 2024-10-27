@@ -186,8 +186,6 @@ button {
 .align h2 {
     font-size: 4rem;
     font-family: var(--font-body);
-
-    border: 2px solid red;
 }
 
 .align p {
