@@ -213,9 +213,16 @@ section {
 }
 
 .bg-frame {
+    background-color: blue;
+
+    position: relative;
 }
 
 .bg-frame::before {
+    content: "";
+    background-image: url(./images/bg-section-top-mobile-1.svg);
+
+    position: absolute;
 }
 
 .bg-frame::after {
