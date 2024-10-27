@@ -24,6 +24,8 @@ https://pages.github.com/
 
 */
 
+/* general utilities */
+
 :root {
     /* Primary */
     --pink: hsl(322, 100%, 66%);
@@ -61,8 +63,11 @@ body {
     background-color: #ffffff;
 }
 
-/* typography */
+img {
+    max-width: 100%;
+}
 
+/* typography */
 h1 {
     font-family: var(--font-headings);
 
