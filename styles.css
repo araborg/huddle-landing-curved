@@ -65,13 +65,23 @@ body {
 
 img {
     max-width: 100%;
+
+    display: block;
 }
 
 /* typography */
-h1 {
+h1,
+h2,
+h3 {
     font-family: var(--font-headings);
+}
 
-    font-size: clamp(0.5rem, calc(1.5rem + 2vw), 4rem);
+h1 {
+    font-size: calc(1.5rem + 2vw);
+}
+
+p {
+    font-size: 0.875rem;
 }
 
 /* layout */
