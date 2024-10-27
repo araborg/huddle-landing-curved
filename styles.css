@@ -204,12 +204,9 @@ section {
 
 .bg-frame {
     background-color: var(--very-pale-blue);
-    /* background-color: yellow; */
 
     position: relative;
     z-index: 0;
-
-    /* border: 2px solid blue; */
 }
 
 .bg-frame.one::before {
@@ -225,8 +222,6 @@ section {
 
     width: 100%;
     height: 50%;
-
-    /* border: 2px solid red; */
 }
 
 .bg-frame.one::after {
@@ -242,8 +237,6 @@ section {
 
     width: 100%;
     height: 50%;
-
-    /* border: 2px solid purple; */
 }
 
 .bg-frame.two::before {
@@ -259,8 +252,6 @@ section {
 
     width: 100%;
     height: 50%;
-
-    /* border: 2px solid red; */
 }
 
 .bg-frame.two::after {
