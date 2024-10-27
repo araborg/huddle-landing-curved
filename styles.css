@@ -65,6 +65,8 @@ body {
 
 h1 {
     font-family: var(--font-headings);
+
+    font-size: clamp(0.5rem, calc(1.5rem + 2vw), 4rem);
 }
 
 /* layout */
