@@ -83,6 +83,7 @@ h1 {
 
 h2 {
     font-size: calc(1.2rem + 2vw);
+    /* font-family: var(); */
 }
 
 h3 {
@@ -136,12 +137,12 @@ button {
     border: 2px solid green;
 }
 
-.layout-flex {
+.layout {
     margin-bottom: 3em;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 /* header */
@@ -186,7 +187,7 @@ button {
 
 .align h2 {
     font-size: 4rem;
-    font-family: var(--font-body);
+    /* font-family: var(--font-body); */
 }
 
 .align p {
