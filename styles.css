@@ -77,11 +77,11 @@ h3 {
 }
 
 h1 {
-    font-size: calc(1.5rem + 2vw);
+    font-size: calc(1.4rem + 2vw);
 }
 
 h2 {
-    font-size: calc(2rem + 2vw);
+    font-size: calc(1.2rem + 2vw);
 }
 
 h3 {
@@ -89,7 +89,7 @@ h3 {
 }
 
 p {
-    font-size: 0.875rem;
+    font-size: calc(0.75rem + 1vw);
 }
 
 button {
@@ -140,12 +140,16 @@ button {
 }
 
 /* header */
+#header {
+    text-align: center;
+}
+
 #nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    border: 2px solid red;
+    margin-bottom: 10em;
 }
 
 .nav-logo {
