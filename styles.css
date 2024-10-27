@@ -306,7 +306,7 @@ footer {
 
     position: relative;
 
-    padding: 4em 0;
+    padding-top: 4em;
     color: var(--white-color);
 }
 
@@ -354,6 +354,22 @@ footer::before {
 .telephone img,
 .email img {
     margin-right: 0.75em;
+}
+
+ul {
+    list-style: none;
+
+    display: flex;
+
+    align-items: baseline;
+
+    border: 2px solid green;
+    margin-bottom: 2em;
+}
+
+ul li {
+    margin-right: 1em;
+    font-size: 2em;
 }
 
 .footer-title {
