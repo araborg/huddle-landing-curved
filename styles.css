@@ -94,6 +94,10 @@ p {
 
 button {
     font-size: 1rem;
+
+    padding: 0.25em 0.5em;
+
+    background-color: none;
 }
 
 /* layout */
