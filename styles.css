@@ -137,8 +137,10 @@ button {
     border: 2px solid green;
 }
 
-.bg-frame.one {
-    margin-bottom: 3em;
+.bg-frame {
+    margin: 10em 0;
+
+    border: 2px solid red;
 }
 
 .flex {
