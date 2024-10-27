@@ -137,6 +137,10 @@ button {
 
 .layout-flex {
     margin-bottom: 3em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* header */
