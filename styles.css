@@ -159,3 +159,13 @@ button {
 
     /* margin-right: auto; */
 }
+
+.title-description {
+    margin-top: 2em;
+
+    margin-bottom: 4em;
+}
+
+.hero-img {
+    margin: 6em 0;
+}
