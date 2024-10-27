@@ -212,14 +212,14 @@ section {
     margin-bottom: 0.5em;
 }
 
-.bg-frame {
+.bg-frame-one {
     /* background-color: blue; */
 
     position: relative;
     z-index: 0;
 }
 
-.bg-frame::before {
+.bg-frame-one::before {
     content: "";
     background-image: url(./images/bg-section-top-mobile-1.svg);
 
