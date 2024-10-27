@@ -70,11 +70,6 @@ img {
 }
 
 /* typography */
-/* h1,
-h2,
-h3 {
-    font-family: var(--font-headings);
-} */
 
 h1 {
     font-size: calc(1.4rem + 2vw);
@@ -238,7 +233,7 @@ section {
 
     position: absolute;
     left: 0;
-    top: -16%;
+    top: -15%;
     z-index: 5;
 
     width: 100%;
@@ -272,7 +267,7 @@ section {
 
     position: absolute;
     left: 0;
-    top: -16%;
+    top: -14.5%;
     z-index: 5;
 
     width: 100%;
