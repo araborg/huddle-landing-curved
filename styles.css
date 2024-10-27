@@ -202,3 +202,10 @@ section {
 .align span {
     display: block;
 }
+
+/* section */
+.section-img {
+    margin-bottom: 4em;
+
+    border: 2px solid red;
+}
