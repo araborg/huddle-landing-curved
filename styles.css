@@ -183,7 +183,6 @@ section {
 
 .align h2 {
     font-size: 4rem;
-    /* font-family: var(--font-body); */
 }
 
 .align p {
@@ -201,9 +200,6 @@ section {
 
 .heading {
     margin-bottom: 0.5em;
-}
-
-.description {
 }
 
 .bg-frame {
