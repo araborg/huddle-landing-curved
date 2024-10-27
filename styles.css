@@ -173,3 +173,23 @@ button {
 .hero-img {
     margin: 6em 0;
 }
+
+/* align */
+.align div {
+    margin-bottom: 3em;
+}
+
+.align img {
+    width: 1.8em;
+}
+
+.align h2 {
+    font-size: 4rem;
+    font-family: var(--font-body);
+
+    border: 2px solid red;
+}
+
+.align p {
+    text-align: center;
+}
