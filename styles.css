@@ -350,6 +350,9 @@ footer::before {
     margin: 1.5em 0;
 }
 
+form {
+}
+
 input {
     display: block;
     width: 100%;
@@ -365,6 +368,7 @@ input {
 }
 
 button[type="submit"] {
+    display: block;
     text-align: right;
 
     /* border: 2px solid green; */
