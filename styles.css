@@ -432,7 +432,7 @@ button[type="submit"] {
     form {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        /* align-items: center; */
         justify-content: space-between;
 
         border: 2px solid purple;
@@ -458,11 +458,13 @@ button[type="submit"] {
         width: 60%;
 
         padding: 0.8em 0.4em;
+        /* padding: 0.8em 2em; */
+        padding: 0.8em 1em;
     }
 
     button[type="submit"] {
         /* display: inline; */
-        align-self: center;
+        align-self: flex-start;
 
         /* padding: 0.4em 1em; */
 
