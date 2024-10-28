@@ -252,7 +252,7 @@ section:not(footer) {
 }
 
 .bg-frame.one::after {
-    content: "";
+    /* content: "";
 
     background-image: url(./images/bg-section-bottom-mobile-1.svg);
     background-repeat: no-repeat;
@@ -263,11 +263,11 @@ section:not(footer) {
     z-index: 1;
 
     width: 100%;
-    height: 50%;
+    height: 50%; */
 }
 
 .bg-frame.two::before {
-    content: "";
+    /* content: "";
 
     background-image: url(./images/bg-section-top-mobile-2.svg);
     background-repeat: no-repeat;
@@ -278,11 +278,11 @@ section:not(footer) {
     z-index: 5;
 
     width: 100%;
-    height: 50%;
+    height: 50%; */
 }
 
 .bg-frame.two::after {
-    content: "";
+    /* content: "";
 
     background-image: url(./images/bg-section-bottom-mobile-2.svg);
     background-repeat: no-repeat;
@@ -293,7 +293,7 @@ section:not(footer) {
     z-index: 1;
 
     width: 100%;
-    height: 50%;
+    height: 50%; */
 }
 
 /* footer */
@@ -309,7 +309,7 @@ footer {
 }
 
 footer::before {
-    content: "";
+    /* content: "";
 
     background-image: url(./images/bg-footer-top-mobile.svg);
     background-repeat: no-repeat;
@@ -321,7 +321,7 @@ footer::before {
     top: -6.2%;
 
     width: 100%;
-    height: 10%;
+    height: 10%; */
 }
 
 .mini-container {
