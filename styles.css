@@ -422,9 +422,7 @@ button[type="submit"] {
     .mobile-svg-top-two,
     .mobile-svg-bottom-two,
     .mobile-svg-footer-top {
-        display: none;
-
-        /* border: 2px solid green; */
+        /* display: none; */
     }
 
     /* 
