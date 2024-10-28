@@ -429,9 +429,47 @@ button[type="submit"] {
         font-size: calc(0.4rem + 1vw);
     }
 
-    input {
-        display: inline-block;
+    form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
 
-        width: 70%;
+        border: 2px solid purple;
+    }
+
+    button {
+        font-size: calc(0.2rem + 1vw);
+
+        padding: 0.2em 0.8em;
+
+        /* background: none;
+        border-radius: 2rem;
+        outline: none;
+        border: none;
+        font-weight: 700;
+    
+        cursor: pointer; */
+    }
+
+    input {
+        /* display: inline; */
+
+        width: 60%;
+
+        padding: 0.8em 0.4em;
+    }
+
+    button[type="submit"] {
+        /* display: inline; */
+        align-self: center;
+
+        /* padding: 0.4em 1em; */
+
+        /* width: 30%; */
+
+        /* background-color: var(--pink); */
+        /* border-radius: 0.3em; */
+        /* color: var(--white-color); */
     }
 }
