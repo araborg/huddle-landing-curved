@@ -58,12 +58,6 @@ html {
 body {
     font-family: var(--font-body);
     padding-top: 2em;
-
-    /* z-index: 0; */
-
-    /* height: auto; */
-
-    /* position: relative; */
 }
 
 img {
