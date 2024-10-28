@@ -331,9 +331,13 @@ button[type="submit"] {
         text-align: left;
     }
 
-    /* .align div {
-        margin-bottom: 3em;
-    } */
+    .align div {
+        margin-bottom: 0;
+    }
+
+    .align span {
+        display: inline;
+    }
 
     .title-description {
         font-size: calc(0.6rem + 1vw);
