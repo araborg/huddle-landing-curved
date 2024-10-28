@@ -133,7 +133,7 @@ button {
 .mobile-svg-top,
 .mobile-svg-bottom,
 .mobile-svg-footer {
-    display: none;
+    /* display: none; */
 }
 
 .bg-frame.one {
@@ -177,11 +177,11 @@ section {
 
 #header,
 .mb {
-    margin-bottom: 20em;
+    /* margin-bottom: 20em; */
 }
 
 .mb {
-    padding: 5em 0;
+    padding: 10em 0;
 }
 
 .grow {
@@ -348,6 +348,37 @@ button[type="submit"] {
 }
 
 @media (min-width: 376px) {
+    .bg-frame {
+        position: relative;
+    }
+
+    .desktop-svg-top,
+    .desktop-svg-bottom,
+    .desktop-svg-footer {
+        display: block;
+    }
+
+    .mobile-svg-top,
+    .mobile-svg-bottom,
+    .mobile-svg-footer {
+        display: none;
+    }
+
+    .bg-frame.one {
+        position: relative;
+    }
+
+    .desktop-svg-bottom {
+        /* position: absolute; */
+        /* margin: 0; */
+
+        /* position: relative; */
+
+        /* left: 0; */
+        /* top: -150%; */
+
+        /* border: 2px solid green; */
+    }
 }
 
 @media (min-width: 376px) {
