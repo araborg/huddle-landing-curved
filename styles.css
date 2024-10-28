@@ -362,6 +362,8 @@ button[type="submit"] {
         border: 2px solid green;
 
         padding: 10em 0;
+
+        /* text-align: left; */
     }
 
     .number {
