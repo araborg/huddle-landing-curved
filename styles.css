@@ -149,6 +149,20 @@ section {
     text-align: center;
 }
 
+#header,
+section,
+.small-container,
+.call-to-action,
+footer {
+    border: 2px solid red;
+
+    margin: 15em auto;
+}
+
+#header {
+    margin-top: 0;
+}
+
 .grow {
     /* margin: 20em auto; */
 }
