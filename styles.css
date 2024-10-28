@@ -289,7 +289,7 @@ form {
 
 input {
     display: block;
-    width: 100%;
+    /* width: 100%; */
 
     padding: 1em 0.5em;
 
@@ -409,7 +409,7 @@ button[type="submit"] {
     }
 
     footer {
-        font-size: calc(0.4rem + 1vw);
+        /* font-size: calc(0.2rem + 1vw); */
     }
 
     .footer-right-side {
@@ -423,7 +423,15 @@ button[type="submit"] {
         width: 42%;
     }
 
-    .footer-text {
-        /* font-size: calc(0.4rem + 1vw); */
+    .footer-text,
+    .telephone,
+    .email {
+        font-size: calc(0.4rem + 1vw);
+    }
+
+    input {
+        display: inline-block;
+
+        width: 70%;
     }
 }
