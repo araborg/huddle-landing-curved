@@ -340,16 +340,8 @@ button[type="submit"] {
     .title-description {
         font-size: calc(0.6rem + 1vw);
 
-        /* font-size: calc(0.75rem + 1vw); */
-
         width: 70%;
         max-width: 700px;
-        /* max-width: 670px; */
-        /* margin: 2em auto 0; */
-
-        /* margin-bottom: 4em; */
-
-        /* font-weight: 500; */
     }
 
     .small-container {
@@ -357,17 +349,15 @@ button[type="submit"] {
         align-items: center;
         justify-content: center;
 
-        border: 2px solid green;
+        /* border: 2px solid green; */
 
         padding: 10em 0;
-
-        /* text-align: left; */
     }
 
     .number {
         margin: 0;
 
-        border: 2px solid purple;
+        /* border: 2px solid purple; */
     }
 
     .align {
