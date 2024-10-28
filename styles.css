@@ -70,7 +70,7 @@ img {
 
 /* typography */
 h1 {
-    font-size: calc(1.4rem + 2vw);
+    font-size: calc(1.3rem + 2vw);
     font-family: var(--font-headings);
 }
 
@@ -150,17 +150,15 @@ section {
 }
 
 #header,
-section,
-.small-container,
-.call-to-action,
-footer {
+.mb {
     border: 2px solid red;
 
-    margin: 15em auto;
+    /* margin-top: 15em; */
+    margin-bottom: 20em;
 }
 
-#header {
-    margin-top: 0;
+section,
+section:not(footer) {
 }
 
 .grow {
