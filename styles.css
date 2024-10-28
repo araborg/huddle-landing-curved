@@ -239,16 +239,16 @@ section:not(footer) {
 .bg-frame.one::before {
     content: "";
 
-    background-image: url(./images/bg-section-top-mobile-1.svg);
-    background-repeat: no-repeat;
+    /* background-image: url(./images/bg-section-top-mobile-1.svg); */
+    /* background-repeat: no-repeat; */
 
-    position: absolute;
+    /* position: absolute;
     left: 0;
     top: -15%;
     z-index: 1;
 
     width: 100%;
-    height: 50%;
+    height: 50%; */
 }
 
 .bg-frame.one::after {
@@ -405,8 +405,14 @@ button[type="submit"] {
 }
 
 @media (min-width: 376px) {
-    section:not(.bg-frame) {
+    section {
         /* margin: 20em auto; */
+
+        border: 2px solid green;
+    }
+
+    .bg-frame.one {
+        position: relative;
     }
 
     .bg-frame.one::before {
@@ -417,13 +423,14 @@ button[type="submit"] {
 
         position: absolute;
         left: 0;
-        top: -14;
-        z-index: 5;
+        top: -80;
+        z-index: 1;
 
         width: 100%;
+        /* max-width: 400px; */
         height: 50%;
 
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
     }
 
     .bg-frame.one::after {
@@ -490,7 +497,7 @@ button[type="submit"] {
     }
 }
 
-/* @media (min-width: 376px) {
+@media (min-width: 376px) {
     .bg-frame.two::before {
         content: "";
 
@@ -499,15 +506,15 @@ button[type="submit"] {
 
         position: absolute;
         left: 0;
-        top: -50%;
-        z-index: 5;
+        top: -17%;
+        z-index: 1;
 
         width: 100%;
         height: 100%;
 
         border: 2px solid purple;
     }
-} */
+}
 
 @media (min-width: 650px) {
     .bg-frame.one::before {
@@ -548,7 +555,7 @@ button[type="submit"] {
 
         position: absolute;
         left: 0;
-        top: -12%;
+        top: -17%;
         z-index: 5;
 
         width: 100%;
@@ -626,7 +633,7 @@ button[type="submit"] {
 
         position: absolute;
         left: 0;
-        top: -12%;
+        top: -13%;
         z-index: 5;
 
         width: 100%;
