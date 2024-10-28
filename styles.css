@@ -154,6 +154,16 @@ button {
     bottom: -15%;
 }
 
+footer {
+    position: relative;
+}
+
+.mobile-svg-footer {
+    position: absolute;
+    left: 0;
+    top: -10%;
+}
+
 .container {
     width: 90%;
     /* max-width: 1440px; */
