@@ -462,6 +462,19 @@ button[type="submit"] {
         display: block;
     }
 
+    .desktop-svg-top {
+    }
+
+    .desktop-svg-bottom {
+    }
+
+    .desktop-svg-bottom.bottom {
+    }
+
+    .desktop-svg-footer {
+        display: none;
+    }
+
     section {
         /* margin: 20em auto; */
 
