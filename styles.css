@@ -302,10 +302,6 @@ button[type="submit"] {
 }
 
 @media (min-width: 376px) {
-    .bg-frame {
-        position: relative;
-    }
-
     .desktop-svg-top,
     .desktop-svg-bottom,
     .desktop-svg-footer {
@@ -317,8 +313,17 @@ button[type="submit"] {
     .mobile-svg-footer {
         display: none;
     }
+}
 
-    .bg-frame.one {
-        position: relative;
+@media (min-width: 650px) {
+    .align {
+        width: 90%;
+        max-width: 1200px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        border: 2px solid red;
     }
 }
