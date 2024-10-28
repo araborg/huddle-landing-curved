@@ -122,9 +122,7 @@ button {
 /* layout */
 .desktop-svg-top,
 .desktop-svg-bottom,
-/* .desktop-svg-top-two, */
-/* .desktop-svg-bottom-two, */
-.desktop-svg-footer-top {
+.desktop-svg-footer {
     display: none;
 }
 
