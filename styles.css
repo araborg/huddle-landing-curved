@@ -420,13 +420,13 @@ button[type="submit"] {
 
     .footer-left-side,
     .footer-right-side {
-        width: 42%;
+        width: 36%;
     }
 
     .footer-text,
     .telephone,
     .email {
-        font-size: calc(0.4rem + 1vw);
+        font-size: calc(0.3rem + 1vw);
     }
 
     form {
@@ -438,12 +438,19 @@ button[type="submit"] {
         /* align-self: center; */
 
         border: 2px solid purple;
+
+        /* position: relative; */
     }
 
-    button {
-        font-size: calc(0.2rem + 1vw);
+    form button {
+        /* padding: 2em 1em; */
 
-        padding: 0.2em 0.8em;
+        /* margin-bottom: 0; */
+
+        /* align-self: center; */
+        /* position: absolute; */
+        /* left: 0; */
+        /* right: -30%; */
 
         /* background: none;
         border-radius: 2rem;
@@ -457,9 +464,9 @@ button[type="submit"] {
     input {
         /* display: inline; */
 
-        width: 60%;
+        /* max-width: 68%; */
 
-        padding: 0.8em 0.4em;
+        /* padding: 0.8em 0.4em; */
         /* padding: 0.8em 2em; */
         padding: 0.8em 1em;
 
@@ -468,9 +475,10 @@ button[type="submit"] {
 
     button[type="submit"] {
         /* display: inline; */
-        align-self: flex-start;
+        /* align-self: flex-start; */
+        font-size: calc(0.2rem + 1vw);
 
-        /* padding: 0.4em 1em; */
+        padding: 0.4em 1em;
 
         /* width: 30%; */
 
