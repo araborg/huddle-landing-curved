@@ -120,13 +120,13 @@ button {
 }
 
 /* layout */
-/* .desktop-svg-top-one,
-.desktop-svg-bottom-one,
-.desktop-svg-top-two,
-.desktop-svg-bottom-two,
+.desktop-svg-top,
+.desktop-svg-bottom,
+/* .desktop-svg-top-two, */
+/* .desktop-svg-bottom-two, */
 .desktop-svg-footer-top {
     display: none;
-} */
+}
 
 .bg-frame {
     /* margin: 10em 0; */
