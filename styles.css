@@ -284,7 +284,7 @@ section {
 footer {
     background-color: var(--very-dark-cyan);
 
-    margin-top: 20em;
+    /* margin-top: 20em; */
 
     position: relative;
 
