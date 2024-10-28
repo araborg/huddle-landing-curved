@@ -378,9 +378,26 @@ button[type="submit"] {
         /* max-width: 100%; */
 
         width: 45%;
+        margin-bottom: 0;
+
+        order: 1;
+    }
+
+    .grow img {
+        order: -2;
+
+        border: 2px solid purple;
     }
 
     .flex .text {
         width: 45%;
+    }
+
+    .text .heading {
+        margin-top: 0;
+    }
+
+    .call-to-action {
+        flex-direction: column;
     }
 }
