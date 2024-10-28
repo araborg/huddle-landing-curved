@@ -160,6 +160,13 @@ section {
     height: 1.2em;
 }
 
+.hero {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
 .title-description {
     margin-top: 2em;
     font-size: calc(0.7rem + 1vw);
@@ -316,8 +323,28 @@ button[type="submit"] {
 }
 
 @media (min-width: 650px) {
+    .title-description {
+        /* font-size: calc(1rem + 1vw); */
+
+        /* max-width: 77%; */
+        /* margin: 2em auto 0; */
+
+        /* margin-bottom: 4em; */
+
+        /* font-weight: 500; */
+    }
+
+    .small-container {
+        display: flex;
+        align-items: center;
+
+        border: 2px solid green;
+
+        padding: 10em 0;
+    }
+
     .align {
-        width: 90%;
+        width: 70%;
         max-width: 1200px;
 
         display: flex;
