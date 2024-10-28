@@ -169,7 +169,10 @@ section {
 
 .title-description {
     margin-top: 2em;
-    font-size: calc(0.7rem + 1vw);
+
+    font-size: 1rem;
+    font-size: calc(1rem + 0.5vw);
+
     margin-bottom: 4em;
 
     font-weight: 500;
@@ -326,7 +329,8 @@ button[type="submit"] {
     .title-description {
         /* font-size: calc(1rem + 1vw); */
 
-        /* max-width: 77%; */
+        width: 70%;
+        /* max-width: 670px; */
         /* margin: 2em auto 0; */
 
         /* margin-bottom: 4em; */
