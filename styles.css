@@ -462,24 +462,6 @@ button[type="submit"] {
         display: block;
     }
 
-    .mobile-svg-top,
-    .mobile-svg-bottom,
-    .mobile-svg-top-two,
-    .mobile-svg-bottom-two,
-    .mobile-svg-footer-top {
-        /* display: none; */
-    }
-
-    /* 
-    .desktop-svg-top-one,
-    .desktop-svg-bottom-one,
-    .desktop-svg-top-two,
-    .desktop-svg-bottom-two,
-    .desktop-svg-footer-top {
-        display: none;
-    }
-    */
-
     section {
         /* margin: 20em auto; */
 
