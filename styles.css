@@ -134,7 +134,7 @@ button {
     margin-left: auto;
     margin-right: auto;
 
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .flex {
@@ -151,7 +151,7 @@ section {
 
 #header,
 .mb {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
     /* margin-top: 15em; */
     margin-bottom: 20em;
@@ -226,7 +226,7 @@ section:not(footer) {
 }
 
 .bg-frame {
-    /* background-color: var(--very-pale-blue); */
+    background-color: var(--very-pale-blue);
 
     position: relative;
     z-index: 0;
@@ -240,7 +240,7 @@ section:not(footer) {
 
     position: absolute;
     left: 0;
-    top: -40%;
+    top: -20%;
     z-index: 5;
 
     width: 100%;
