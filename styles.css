@@ -59,7 +59,9 @@ body {
     font-family: var(--font-body);
     padding-top: 2em;
 
-    height: auto;
+    /* height: auto; */
+
+    /* position: relative; */
 }
 
 img {
@@ -126,14 +128,20 @@ button {
     display: none;
 }
 
-.bg-frame {
+.bg-frame.one {
     position: relative;
     /* margin: 10em 0; */
 
     /* padding: 5em 0; */
+    /* border: 2px solid green; */
 }
 
 .mobile-svg-top {
+    position: absolute;
+    left: 0;
+    top: -20%;
+
+    /* border: 2px solid red; */
 }
 
 .container {
