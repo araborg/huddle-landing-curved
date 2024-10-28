@@ -173,10 +173,6 @@ section {
 }
 
 /* align */
-.small-container {
-    /* margin-top: 6em; */
-}
-
 .align div {
     margin-bottom: 3em;
 }
@@ -218,8 +214,6 @@ section {
 /* footer */
 footer {
     background-color: var(--very-dark-cyan);
-
-    /* margin-top: 20em; */
 
     position: relative;
 
