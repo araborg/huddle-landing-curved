@@ -137,54 +137,19 @@ button {
 }
 
 .bg-frame.one {
-    /* position: relative; */
-
-    /* border: 2px solid green; */
 }
 
 .mobile-svg-top {
-    /* position: absolute; */
-    /* left: 0; */
-    /* top: -10%; */
-
-    /* margin-bottom: -0.5em; */
-
-    /* z-index: 1; */
-
-    /* width: 100%; */
-
-    /* border: 2px solid red; */
 }
 
 .mobile-svg-bottom {
-    /* position: absolute;
-    left: 0;
-    bottom: -7%;
-
-    z-index: 1; */
-
-    /* width: 100%; */
 }
 
 .mobile-svg-bottom.bottom {
-    /* bottom: -15%;
-    z-index: 1; */
-
-    /* width: 100%; */
 }
 
 footer {
     /* position: relative; */
-}
-
-.mobile-svg-footer {
-    /* position: absolute;
-    left: 0;
-    top: -5%;
-
-    z-index: 1; */
-
-    /* width: 100%; */
 }
 
 .container {
@@ -212,9 +177,6 @@ section {
 
 #header,
 .mb {
-    /* border: 2px solid red; */
-
-    /* margin-top: 15em; */
     margin-bottom: 20em;
 }
 
@@ -293,66 +255,6 @@ section {
     z-index: 0;
 }
 
-.bg-frame.one::before {
-    content: "";
-
-    /* background-image: url(./images/bg-section-top-mobile-1.svg); */
-    /* background-repeat: no-repeat; */
-
-    /* position: absolute;
-    left: 0;
-    top: -15%;
-    z-index: 1;
-
-    width: 100%;
-    height: 50%; */
-}
-
-.bg-frame.one::after {
-    /* content: "";
-
-    background-image: url(./images/bg-section-bottom-mobile-1.svg);
-    background-repeat: no-repeat;
-
-    position: absolute;
-    left: 0;
-    bottom: -50%;
-    z-index: 1;
-
-    width: 100%;
-    height: 50%; */
-}
-
-.bg-frame.two::before {
-    /* content: "";
-
-    background-image: url(./images/bg-section-top-mobile-2.svg);
-    background-repeat: no-repeat;
-
-    position: absolute;
-    left: 0;
-    top: -14.5%;
-    z-index: 5;
-
-    width: 100%;
-    height: 50%; */
-}
-
-.bg-frame.two::after {
-    /* content: "";
-
-    background-image: url(./images/bg-section-bottom-mobile-2.svg);
-    background-repeat: no-repeat;
-
-    position: absolute;
-    left: 0;
-    bottom: -50%;
-    z-index: 1;
-
-    width: 100%;
-    height: 50%; */
-}
-
 /* footer */
 footer {
     background-color: var(--very-dark-cyan);
@@ -363,22 +265,6 @@ footer {
 
     padding: 4em 0 2em 0;
     color: var(--white-color);
-}
-
-footer::before {
-    /* content: "";
-
-    background-image: url(./images/bg-footer-top-mobile.svg);
-    background-repeat: no-repeat;
-
-    z-index: 1;
-
-    position: absolute;
-    left: 0;
-    top: -6.2%;
-
-    width: 100%;
-    height: 10%; */
 }
 
 .mini-container {
