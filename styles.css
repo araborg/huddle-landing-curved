@@ -130,10 +130,6 @@ button {
 
 .bg-frame.one {
     position: relative;
-    /* margin: 10em 0; */
-
-    /* padding: 5em 0; */
-    /* border: 2px solid green; */
 }
 
 .mobile-svg-top {
@@ -449,6 +445,14 @@ button[type="submit"] {
 }
 
 @media (min-width: 376px) {
+    .bg-frame.one {
+        position: relative;
+    }
+
+    footer {
+        position: relative;
+    }
+
     .mobile-svg-top,
     .mobile-svg-bottom,
     .mobile-svg-bottom.bottom,
@@ -463,6 +467,10 @@ button[type="submit"] {
     }
 
     .desktop-svg-top {
+        left: 0;
+        top: -70%;
+
+        border: 2px solid red;
     }
 
     .desktop-svg-bottom {
