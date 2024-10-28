@@ -147,7 +147,11 @@ button {
 .mobile-svg-bottom {
     position: absolute;
     left: 0;
-    bottom: -8%;
+    bottom: -7%;
+}
+
+.mobile-svg-bottom.bottom {
+    bottom: -15%;
 }
 
 .container {
