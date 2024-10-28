@@ -400,4 +400,30 @@ button[type="submit"] {
     .call-to-action {
         flex-direction: column;
     }
+
+    .mini-container {
+        display: flex;
+
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer {
+        font-size: calc(0.4rem + 1vw);
+    }
+
+    .footer-right-side {
+        order: 2;
+
+        /* margin-bottom: 8em; */
+    }
+
+    .footer-left-side,
+    .footer-right-side {
+        width: 42%;
+    }
+
+    .footer-text {
+        /* font-size: calc(0.4rem + 1vw); */
+    }
 }
