@@ -448,7 +448,7 @@ button[type="submit"] {
     }
 
     .bg-frame.one::before {
-        content: "";
+        /* content: "";
 
         background-image: url(./images/bg-section-top-desktop-1.svg);
         background-repeat: no-repeat;
@@ -459,14 +459,14 @@ button[type="submit"] {
         z-index: 1;
 
         width: 100%;
-        /* max-width: 400px; */
-        height: 50%;
+        max-width: 400px;
+        height: 50%; */
 
         /* border: 2px solid blue; */
     }
 
     .bg-frame.one::after {
-        content: "";
+        /* content: "";
 
         background-image: url(./images/bg-section-bottom-desktop-1.svg);
         background-repeat: no-repeat;
@@ -477,11 +477,11 @@ button[type="submit"] {
         z-index: 1;
 
         width: 100%;
-        height: 50%;
+        height: 50%; */
     }
 
     .bg-frame.two::before {
-        content: "";
+        /* content: "";
 
         background-image: url(./images/bg-section-top-desktop-2.svg);
         background-repeat: no-repeat;
@@ -494,11 +494,11 @@ button[type="submit"] {
         width: 100%;
         height: 50%;
 
-        border: 2px solid purple;
+        border: 2px solid purple; */
     }
 
     .bg-frame.two::after {
-        content: "";
+        /* content: "";
 
         background-image: url(./images/bg-section-bottom-desktop-2.svg);
         background-repeat: no-repeat;
@@ -509,11 +509,11 @@ button[type="submit"] {
         z-index: 1;
 
         width: 100%;
-        height: 50%;
+        height: 50%; */
     }
 
     footer::before {
-        content: "";
+        /* content: "";
 
         background-image: url(./images/bg-footer-top-desktop.svg);
         background-repeat: no-repeat;
@@ -525,12 +525,12 @@ button[type="submit"] {
         top: -16%;
 
         width: 100%;
-        height: 50%;
+        height: 50%; */
     }
 }
 
 @media (min-width: 376px) {
-    .bg-frame.two::before {
+    /* .bg-frame.two::before {
         content: "";
 
         background-image: url(./images/bg-section-top-desktop-2.svg);
@@ -545,11 +545,11 @@ button[type="submit"] {
         height: 100%;
 
         border: 2px solid purple;
-    }
+    } */
 }
 
 @media (min-width: 650px) {
-    .bg-frame.one::before {
+    /* .bg-frame.one::before {
         content: "";
 
         background-image: url(./images/bg-section-top-desktop-1.svg);
@@ -562,9 +562,9 @@ button[type="submit"] {
 
         width: 100%;
         height: 50%;
-    }
+    } */
 
-    .bg-frame.one::after {
+    /* .bg-frame.one::after {
         content: "";
 
         background-image: url(./images/bg-section-bottom-desktop-1.svg);
@@ -577,9 +577,9 @@ button[type="submit"] {
 
         width: 100%;
         height: 50%;
-    }
+    } */
 
-    .bg-frame.two::before {
+    /* .bg-frame.two::before {
         content: "";
 
         background-image: url(./images/bg-section-top-desktop-2.svg);
@@ -592,9 +592,9 @@ button[type="submit"] {
 
         width: 100%;
         height: 50%;
-    }
+    } */
 
-    .bg-frame.two::after {
+    /* .bg-frame.two::after {
         content: "";
 
         background-image: url(./images/bg-section-bottom-desktop-2.svg);
@@ -607,9 +607,9 @@ button[type="submit"] {
 
         width: 100%;
         height: 50%;
-    }
+    } */
 
-    footer::before {
+    /* footer::before {
         content: "";
 
         background-image: url(./images/bg-footer-top-desktop.svg);
@@ -623,11 +623,11 @@ button[type="submit"] {
 
         width: 100%;
         height: 50%;
-    }
+    } */
 }
 
 @media (min-width: 990px) {
-    .bg-frame.one::before {
+    /* .bg-frame.one::before {
         content: "";
 
         background-image: url(./images/bg-section-top-desktop-1.svg);
@@ -640,9 +640,9 @@ button[type="submit"] {
 
         width: 100%;
         height: 50%;
-    }
+    } */
 
-    .bg-frame.one::after {
+    /* .bg-frame.one::after {
         content: "";
 
         background-image: url(./images/bg-section-bottom-desktop-1.svg);
@@ -655,9 +655,9 @@ button[type="submit"] {
 
         width: 100%;
         height: 50%;
-    }
+    } */
 
-    .bg-frame.two::before {
+    /* .bg-frame.two::before {
         content: "";
 
         background-image: url(./images/bg-section-top-desktop-2.svg);
@@ -670,9 +670,9 @@ button[type="submit"] {
 
         width: 100%;
         height: 50%;
-    }
+    } */
 
-    .bg-frame.two::after {
+    /* .bg-frame.two::after {
         content: "";
 
         background-image: url(./images/bg-section-bottom-desktop-2.svg);
@@ -685,9 +685,9 @@ button[type="submit"] {
 
         width: 100%;
         height: 50%;
-    }
+    } */
 
-    footer::before {
+    /* footer::before {
         content: "";
 
         background-image: url(./images/bg-footer-top-desktop.svg);
@@ -701,7 +701,7 @@ button[type="submit"] {
 
         width: 100%;
         height: 50%;
-    }
+    } */
 }
 
 /* 
