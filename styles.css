@@ -170,7 +170,6 @@ section {
 .title-description {
     margin-top: 2em;
 
-    /* font-size: 1rem; */
     font-size: calc(0.75rem + 1vw);
     width: 70%;
 
@@ -289,7 +288,6 @@ form {
 
 input {
     display: block;
-    /* width: 100%; */
 
     padding: 1em 0.5em;
 
