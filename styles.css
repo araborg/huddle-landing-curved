@@ -127,9 +127,13 @@ button {
 }
 
 .bg-frame {
+    position: relative;
     /* margin: 10em 0; */
 
     /* padding: 5em 0; */
+}
+
+.mobile-svg-top {
 }
 
 .container {
