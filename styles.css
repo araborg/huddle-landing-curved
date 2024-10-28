@@ -383,8 +383,6 @@ button[type="submit"] {
     }
 
     .flex img {
-        /* max-width: 100%; */
-
         width: 45%;
         margin-bottom: 0;
 
@@ -416,14 +414,8 @@ button[type="submit"] {
         justify-content: space-between;
     }
 
-    footer {
-        /* font-size: calc(0.2rem + 1vw); */
-    }
-
     .footer-right-side {
         order: 2;
-
-        /* margin-bottom: 8em; */
     }
 
     .footer-left-side,
