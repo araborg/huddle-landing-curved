@@ -139,9 +139,13 @@ button {
 .mobile-svg-top {
     position: absolute;
     left: 0;
-    top: -15%;
+    top: -14%;
 
     /* border: 2px solid red; */
+}
+
+.mobile-svg-bottom {
+    position: absolute;
 }
 
 .container {
