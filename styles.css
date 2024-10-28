@@ -240,7 +240,7 @@ section:not(footer) {
 
     position: absolute;
     left: 0;
-    top: -15%;
+    top: -40%;
     z-index: 5;
 
     width: 100%;
