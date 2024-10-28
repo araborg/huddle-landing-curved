@@ -345,6 +345,7 @@ button[type="submit"] {
     .small-container {
         display: flex;
         align-items: center;
+        justify-content: center;
 
         border: 2px solid green;
 
@@ -366,5 +367,20 @@ button[type="submit"] {
 @media (min-width: 800px) {
     .flex {
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        border: 2px solid red;
+    }
+
+    .flex img {
+        /* max-width: 100%; */
+
+        width: 45%;
+    }
+
+    .flex .text {
+        width: 45%;
     }
 }
