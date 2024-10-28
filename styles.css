@@ -322,13 +322,14 @@ button[type="submit"] {
     .mobile-svg-footer {
         display: none;
     }
+
+    /* #header,
+    section {
+        text-align: center;
+    } */
 }
 
 @media (min-width: 650px) {
-    section {
-        text-align: left;
-    }
-
     .align div {
         margin-bottom: 0;
     }
@@ -356,8 +357,6 @@ button[type="submit"] {
 
     .number {
         margin: 0;
-
-        /* border: 2px solid purple; */
     }
 
     .align {
@@ -373,6 +372,10 @@ button[type="submit"] {
 }
 
 @media (min-width: 800px) {
+    section {
+        text-align: left;
+    }
+
     .flex {
         display: flex;
         flex-direction: row;
