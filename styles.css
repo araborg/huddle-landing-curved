@@ -141,6 +141,8 @@ button {
     left: 0;
     top: -14%;
 
+    /* width: 100%; */
+
     /* border: 2px solid red; */
 }
 
@@ -148,10 +150,12 @@ button {
     position: absolute;
     left: 0;
     bottom: -7%;
+    /* width: 100%; */
 }
 
 .mobile-svg-bottom.bottom {
     bottom: -15%;
+    /* width: 100%; */
 }
 
 footer {
@@ -161,7 +165,9 @@ footer {
 .mobile-svg-footer {
     position: absolute;
     left: 0;
-    top: -10%;
+    top: -5%;
+
+    /* width: 100%; */
 }
 
 .container {
@@ -443,7 +449,16 @@ button[type="submit"] {
 }
 
 @media (min-width: 376px) {
-    body {
+    .mobile-svg-top,
+    .mobile-svg-bottom,
+    .mobile-svg-bottom.bottom,
+    .mobile-svg-footer {
+        display: none;
+    }
+
+    .desktop-svg-top,
+    .desktop-svg-bottom,
+    .desktop-svg-footer {
         display: block;
     }
 
