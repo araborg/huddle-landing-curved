@@ -147,6 +147,10 @@ section {
     text-align: center;
 }
 
+.grow {
+    margin: 20em auto;
+}
+
 #nav {
     display: flex;
     align-items: center;
@@ -383,7 +387,7 @@ button[type="submit"] {
 }
 
 @media (min-width: 376px) {
-    .layout {
+    section:not(.bg-frame) {
         margin: 20em auto;
     }
 
@@ -395,11 +399,13 @@ button[type="submit"] {
 
         position: absolute;
         left: 0;
-        top: -18%;
+        top: -12.3%;
         z-index: 5;
 
         width: 100%;
         height: 50%;
+
+        border: 2px solid blue;
     }
 
     .bg-frame.one::after {
