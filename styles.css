@@ -170,8 +170,9 @@ section {
 .title-description {
     margin-top: 2em;
 
-    font-size: 1rem;
-    font-size: calc(1rem + 0.5vw);
+    /* font-size: 1rem; */
+    font-size: calc(0.75rem + 1vw);
+    width: 70%;
 
     margin-bottom: 4em;
 
@@ -327,9 +328,12 @@ button[type="submit"] {
 
 @media (min-width: 650px) {
     .title-description {
-        /* font-size: calc(1rem + 1vw); */
+        font-size: calc(0.6rem + 1vw);
+
+        /* font-size: calc(0.75rem + 1vw); */
 
         width: 70%;
+        max-width: 700px;
         /* max-width: 670px; */
         /* margin: 2em auto 0; */
 
@@ -356,5 +360,11 @@ button[type="submit"] {
         align-items: center;
 
         border: 2px solid red;
+    }
+}
+
+@media (min-width: 800px) {
+    .flex {
+        display: flex;
     }
 }
