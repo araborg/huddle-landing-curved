@@ -421,11 +421,13 @@ button[type="submit"] {
 
         position: absolute;
         left: 0;
-        top: -12%;
+        top: -30%;
         z-index: 5;
 
         width: 100%;
         height: 50%;
+
+        border: 2px solid purple;
     }
 
     .bg-frame.two::after {
@@ -453,7 +455,7 @@ button[type="submit"] {
 
         position: absolute;
         left: 0;
-        top: -16.2%;
+        top: -16%;
 
         width: 100%;
         height: 50%;
