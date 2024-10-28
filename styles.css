@@ -59,7 +59,7 @@ body {
     font-family: var(--font-body);
     padding-top: 2em;
 
-    z-index: 0;
+    /* z-index: 0; */
 
     /* height: auto; */
 
@@ -131,15 +131,19 @@ button {
 }
 
 .bg-frame.one {
-    position: relative;
+    /* position: relative; */
+
+    /* border: 2px solid green; */
 }
 
 .mobile-svg-top {
-    position: absolute;
-    left: 0;
-    top: -14%;
+    /* position: absolute; */
+    /* left: 0; */
+    /* top: -10%; */
 
-    z-index: 1;
+    /* margin-bottom: -0.5em; */
+
+    /* z-index: 1; */
 
     /* width: 100%; */
 
@@ -147,32 +151,32 @@ button {
 }
 
 .mobile-svg-bottom {
-    position: absolute;
+    /* position: absolute;
     left: 0;
     bottom: -7%;
 
-    z-index: 1;
+    z-index: 1; */
 
     /* width: 100%; */
 }
 
 .mobile-svg-bottom.bottom {
-    bottom: -15%;
-    z-index: 1;
+    /* bottom: -15%;
+    z-index: 1; */
 
     /* width: 100%; */
 }
 
 footer {
-    position: relative;
+    /* position: relative; */
 }
 
 .mobile-svg-footer {
-    position: absolute;
+    /* position: absolute;
     left: 0;
     top: -5%;
 
-    z-index: 1;
+    z-index: 1; */
 
     /* width: 100%; */
 }
@@ -210,10 +214,6 @@ section {
 
 .mb {
     padding: 5em 0;
-}
-
-section,
-section:not(footer) {
 }
 
 .grow {
@@ -456,59 +456,78 @@ button[type="submit"] {
 }
 
 @media (min-width: 376px) {
+    section {
+        /* width: 100vw; */
+    }
+
     .bg-frame.one {
-        position: relative;
+        /* position: relative; */
+
+        /* width: 100vw; */
     }
 
     footer {
-        position: relative;
+        /* position: relative; */
     }
 
     .mobile-svg-top,
     .mobile-svg-bottom,
     .mobile-svg-bottom.bottom,
     .mobile-svg-footer {
-        display: none;
+        /* display: none; */
 
-        z-index: 2;
+        /* z-index: 2; */
     }
 
     .desktop-svg-top,
     .desktop-svg-bottom,
     .desktop-svg-footer {
-        display: block;
+        /* display: block; */
+
+        /* width: 100vw; */
+        /* overflow-x: hidden; */
     }
 
     .desktop-svg-top {
-        left: 0;
-        top: -170%;
+        /* position: absolute; */
+        /* left: 0; */
+        /* top: -20%; */
 
-        border: 2px solid red;
+        /* width: 100%; */
+
+        /* border: 2px solid red; */
     }
 
     .desktop-svg-bottom {
+        /* position: absolute;
+        left: 0;
+        bottom: -20%; */
     }
 
     .desktop-svg-bottom.bottom {
+        /* overflow-x: hidden; */
     }
 
     .desktop-svg-footer {
+        /* position: absolute;
         left: 0;
-        top: -150%;
+        top: -15%; */
 
-        border: 2px solid white;
+        /* border: 2px solid white; */
 
         /* z-index: 2; */
     }
 
     section {
+        /* width: 100vw; */
+
         /* margin: 20em auto; */
 
-        border: 2px solid green;
+        /* border: 2px solid green; */
     }
 
     .bg-frame.one {
-        position: relative;
+        /* position: relative; */
     }
 
     .bg-frame.one::before {
