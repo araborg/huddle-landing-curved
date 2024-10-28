@@ -58,6 +58,8 @@ html {
 body {
     font-family: var(--font-body);
     padding-top: 2em;
+
+    height: auto;
 }
 
 img {
@@ -119,9 +121,9 @@ button {
 
 /* layout */
 .bg-frame {
-    margin: 10em 0;
+    /* margin: 10em 0; */
 
-    padding: 5em 0;
+    /* padding: 5em 0; */
 }
 
 .container {
@@ -148,7 +150,7 @@ section {
 }
 
 .grow {
-    margin: 20em auto;
+    /* margin: 20em auto; */
 }
 
 #nav {
@@ -177,7 +179,7 @@ section {
 
 /* align */
 .small-container {
-    margin-top: 6em;
+    /* margin-top: 6em; */
 }
 
 .align div {
@@ -212,13 +214,13 @@ section {
 }
 
 .bg-frame {
-    background-color: var(--very-pale-blue);
+    /* background-color: var(--very-pale-blue); */
 
     position: relative;
     z-index: 0;
 }
 
-.bg-frame.one::before {
+/* .bg-frame.one::before {
     content: "";
 
     background-image: url(./images/bg-section-top-mobile-1.svg);
@@ -276,7 +278,7 @@ section {
 
     width: 100%;
     height: 50%;
-}
+} */
 
 /* footer */
 footer {
@@ -290,7 +292,7 @@ footer {
     color: var(--white-color);
 }
 
-footer::before {
+/* footer::before {
     content: "";
 
     background-image: url(./images/bg-footer-top-mobile.svg);
@@ -304,7 +306,7 @@ footer::before {
 
     width: 100%;
     height: 10%;
-}
+} */
 
 .mini-container {
     display: flex;
@@ -388,7 +390,7 @@ button[type="submit"] {
 
 @media (min-width: 376px) {
     section:not(.bg-frame) {
-        margin: 20em auto;
+        /* margin: 20em auto; */
     }
 
     .bg-frame.one::before {
@@ -399,7 +401,7 @@ button[type="submit"] {
 
         position: absolute;
         left: 0;
-        top: -12.3%;
+        top: -14;
         z-index: 5;
 
         width: 100%;
