@@ -156,14 +156,10 @@ a:focus {
 
 main section:not(section:nth-child(1)) {
     text-align: center;
-
-    border: pink solid 4px;
 }
 
 .mb {
     padding: 5em 0;
-
-    border: 2px solid green;
 }
 
 #nav {
