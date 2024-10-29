@@ -188,10 +188,6 @@ main section:not(section:nth-child(1)) {
 .title-description {
     margin-top: 2em;
 
-    /* font-size: calc(0.1rem + 0.5vw); */
-    /* font-size: calc(1rem + 1vw); */
-
-    /* font-size: 0.85rem; */
     width: 80%;
 
     margin-bottom: 4em;
