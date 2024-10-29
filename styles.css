@@ -341,11 +341,11 @@ button[type="submit"] {
 
 @media (min-width: 650px) {
     .align div {
-        margin-bottom: 0;
+        /* margin-bottom: 0; */
     }
 
     .align span {
-        display: inline;
+        /* display: inline; */
     }
 
     .title-description {
@@ -356,27 +356,27 @@ button[type="submit"] {
     }
 
     .small-container {
-        display: flex;
+        /* display: flex; */
         /* align-items: center; */
         /* justify-content: center; */
 
         border: 2px solid purple;
-        padding: 10em 0;
-    }
-
-    .number {
-        margin: 0;
+        /* padding: 10em 0; */
     }
 
     .align {
-        width: 80%;
-        max-width: 1200px;
+        /* width: 80%; */
+        /* max-width: 1200px; */
 
-        display: flex;
-        justify-content: space-between;
+        /* display: flex; */
+        /* justify-content: space-between; */
         /* align-items: center; */
 
         border: 2px solid red;
+    }
+
+    .number {
+        /* margin: 0; */
     }
 }
 
