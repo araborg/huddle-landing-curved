@@ -314,6 +314,10 @@ form {
     flex-direction: column;
 }
 
+.desktop-form {
+    display: none;
+}
+
 input {
     display: block;
 
@@ -450,6 +454,14 @@ button[type="submit"] {
         justify-content: space-between;
 
         /* border: 2px solid purple; */
+    }
+
+    .mobile-form {
+        display: none;
+    }
+
+    .desktop-form {
+        display: flex;
     }
 
     input {
