@@ -451,7 +451,6 @@ button[type="submit"] {
     .telephone span,
     .email span {
         font-size: calc(0.25rem + 1vw);
-        /* font-size: calc(0.7rem + 1vw); */
     }
 
     .footer-text {
@@ -465,24 +464,6 @@ button[type="submit"] {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-
-        /* border: 2px solid purple; */
-    }
-
-    .mobile-form {
-        /* display: none; */
-    }
-
-    .desktop-form {
-        /* display: flex; */
-    }
-
-    .desktop-form form {
-        /* position: absolute; */
-        /* right: -3%; */
-        /* top: 55%; */
-        /* left: 0; */
-        /* order: -2; */
     }
 
     input {
