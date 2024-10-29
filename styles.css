@@ -203,7 +203,6 @@ main section:not(section:nth-child(1)) {
 
 .align div {
     margin-bottom: 3em;
-    border: 2px solid red;
 }
 
 .align img {
