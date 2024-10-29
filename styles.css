@@ -201,13 +201,12 @@ section {
 }
 
 .align div {
-    /* margin-bottom: 3em; */
+    margin-bottom: 3em;
     border: 2px solid red;
 }
 
 .align img {
-    /* text-align: center; */
-    /* width: 1.8em; */
+    width: 1.8em;
 }
 
 .number {
