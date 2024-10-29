@@ -191,6 +191,13 @@ section {
 }
 
 .align {
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
 }
 
 .align div {
