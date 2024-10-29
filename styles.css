@@ -190,15 +190,12 @@ section {
     /* text-align: center; */
 }
 
+.align {
+}
+
 .align div {
     margin-bottom: 3em;
     border: 2px solid red;
-
-    /* display: flex; */
-
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 .align img {
