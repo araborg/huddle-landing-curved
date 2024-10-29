@@ -361,7 +361,7 @@ button[type="submit"] {
 
 @media (min-width: 650px) {
     .align {
-        width: 70%;
+        width: 80%;
         /* max-width: 1200px; */
 
         display: flex;
