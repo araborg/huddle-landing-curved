@@ -77,12 +77,12 @@ h2 {
 }
 
 h3 {
-    font-size: calc(1rem + 1vw);
+    font-size: calc(0.5rem + 1vw);
     margin: 1.5em 0;
 }
 
 p {
-    font-size: calc(0.68rem + 1vw);
+    font-size: calc(0.5rem + 1vw);
 }
 
 button {
@@ -188,7 +188,10 @@ main section:not(section:nth-child(1)) {
 .title-description {
     margin-top: 2em;
 
-    font-size: calc(0.5rem + 1vw);
+    /* font-size: calc(0.1rem + 0.5vw); */
+    /* font-size: calc(1rem + 1vw); */
+
+    /* font-size: 0.85rem; */
     width: 80%;
 
     margin-bottom: 4em;
@@ -247,6 +250,10 @@ main section:not(section:nth-child(1)) {
 
 .bg-frame {
     background-color: var(--very-pale-blue);
+}
+
+.description {
+    font-size: calc(0.26rem + 0.9vw);
 }
 
 /* footer */
@@ -377,7 +384,7 @@ button[type="submit"] {
     }
 
     .title-description {
-        font-size: calc(0.6rem + 1vw);
+        /* font-size: calc(0.6rem + 1vw); */
 
         width: 70%;
         max-width: 700px;
@@ -385,6 +392,18 @@ button[type="submit"] {
 }
 
 @media (min-width: 800px) {
+    .title-description {
+        /* font-size: calc(0.1rem + 0.5vw); */
+        font-size: calc(0.5rem + 1vw);
+
+        /* font-size: 0.85rem; */
+        /* width: 80%; */
+
+        /* margin-bottom: 4em; */
+
+        /* font-weight: 500; */
+    }
+
     section {
         text-align: left;
     }
@@ -425,6 +444,10 @@ button[type="submit"] {
 
     .call-to-action {
         flex-direction: column;
+
+        font-size: 4rem;
+
+        border: 2px solid blue;
     }
 
     .mini-container {
