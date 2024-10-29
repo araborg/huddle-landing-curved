@@ -378,10 +378,10 @@ button[type="submit"] {
 
     .align {
         width: 80%;
-        /* max-width: 1200px; */
+        max-width: 1200px;
 
         display: flex;
-        /* justify-content: space-between; */
+        justify-content: space-between;
         /* align-items: center; */
 
         border: 2px solid red;
