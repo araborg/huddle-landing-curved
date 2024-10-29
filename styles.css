@@ -194,13 +194,13 @@ section {
 }
 
 .align div {
-    margin-bottom: 3em;
+    /* margin-bottom: 3em; */
     border: 2px solid red;
 }
 
 .align img {
-    text-align: center;
-    width: 1.8em;
+    /* text-align: center; */
+    /* width: 1.8em; */
 }
 
 .number {
@@ -210,17 +210,17 @@ section {
 }
 
 .align h2 {
-    font-size: 4rem;
+    /* font-size: 4rem; */
 }
 
 .align p {
-    text-align: center;
+    /* text-align: center; */
 
     color: grey;
 }
 
 .align span {
-    display: block;
+    /* display: block; */
 }
 
 /* section */
@@ -337,11 +337,6 @@ button[type="submit"] {
     .mobile-svg-footer {
         display: none;
     }
-
-    /* #header,
-    section {
-        text-align: center;
-    } */
 }
 
 @media (min-width: 650px) {
