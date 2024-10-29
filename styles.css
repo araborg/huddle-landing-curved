@@ -347,6 +347,17 @@ button[type="submit"] {
 }
 
 @media (min-width: 650px) {
+    .align {
+        /* width: 80%; */
+        /* max-width: 1200px; */
+
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* align-items: center; */
+
+        border: 2px solid red;
+    }
+
     .align div {
         /* margin-bottom: 0; */
     }
@@ -369,17 +380,6 @@ button[type="submit"] {
 
         border: 2px solid purple;
         /* padding: 10em 0; */
-    }
-
-    .align {
-        /* width: 80%; */
-        /* max-width: 1200px; */
-
-        /* display: flex; */
-        /* justify-content: space-between; */
-        /* align-items: center; */
-
-        border: 2px solid red;
     }
 
     .number {
