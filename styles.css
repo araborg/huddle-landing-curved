@@ -150,10 +150,13 @@ a:focus {
 }
 
 /* header */
-#header,
-section {
+#header {
     text-align: center;
 }
+
+/* section {
+    text-align: center;
+} */
 
 .mb {
     padding: 10em 0;
@@ -202,9 +205,9 @@ section {
 }
 
 .align {
-    width: 75%;
-    margin: 0 auto;
-    text-align: left;
+    /* width: 75%; */
+    /* margin: 0 auto; */
+    /* text-align: left; */
 
     /* display: flex; */
     /* flex-direction: column; */
@@ -217,11 +220,13 @@ section {
 }
 
 .align img {
-    width: 1.8em;
+    height: 1.8em;
+
+    /* margin: 0 auto; */
 }
 
 .number {
-    /* margin: 0; */
+    margin: 0;
 
     border: 2px solid green;
 }
