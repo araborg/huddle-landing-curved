@@ -161,7 +161,9 @@ main section:not(section:nth-child(1)) {
 }
 
 .mb {
-    padding: 10em 0;
+    /* padding: 10em 0; */
+
+    padding: 5em 0;
 
     border: 2px solid green;
 }
@@ -479,7 +481,12 @@ button[type="submit"] {
     .telephone,
     .email {
         font-size: calc(0.2rem + 1vw);
-        /* font-size: calc(0.5rem + 1vw); */
+    }
+
+    .telephone span,
+    .email span {
+        font-size: calc(0.25rem + 1vw);
+        /* font-size: calc(0.7rem + 1vw); */
     }
 
     .footer-text {
@@ -529,5 +536,9 @@ button[type="submit"] {
 
         padding: 0.8em 1.2em;
         margin-left: 1rem;
+    }
+
+    .attribution {
+        font-size: calc(0.25rem + 1vw);
     }
 }
