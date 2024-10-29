@@ -434,6 +434,10 @@ button[type="submit"] {
         order: 2;
     }
 
+    .footer-right-side .footer-title {
+        position: relative;
+    }
+
     .footer-left-side,
     .footer-right-side {
         width: 36%;
@@ -446,12 +450,12 @@ button[type="submit"] {
     }
 
     form {
-        width: 100%;
+        width: 60%;
 
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        /* justify-content: space-between; */
 
         /* border: 2px solid purple; */
     }
@@ -465,6 +469,9 @@ button[type="submit"] {
     }
 
     .desktop-form form {
+        position: absolute;
+        right: 0;
+        top: 55%;
         /* order: -2; */
     }
 
