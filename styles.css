@@ -201,19 +201,9 @@ main section:not(section:nth-child(1)) {
 }
 
 /* align */
-
-.small-container {
-    /* text-align: center; */
-}
-
 .align {
     width: 75%;
     margin: 0 auto;
-    /* text-align: left; */
-
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
 }
 
 .align div {
@@ -223,8 +213,6 @@ main section:not(section:nth-child(1)) {
 
 .align img {
     height: 1.8em;
-
-    /* margin: 0 auto; */
 }
 
 .number {
