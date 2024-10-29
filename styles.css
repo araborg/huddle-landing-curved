@@ -154,9 +154,11 @@ a:focus {
     text-align: center;
 }
 
-/* section {
+main section:not(section:nth-child(1)) {
     text-align: center;
-} */
+
+    border: pink solid 4px;
+}
 
 .mb {
     padding: 10em 0;
@@ -205,13 +207,13 @@ a:focus {
 }
 
 .align {
-    /* width: 75%; */
-    /* margin: 0 auto; */
+    width: 75%;
+    margin: 0 auto;
     /* text-align: left; */
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
 }
 
 .align div {
@@ -236,14 +238,14 @@ a:focus {
 }
 
 .align p {
-    /* text-align: center; */
+    text-align: center;
 
     color: grey;
     font-size: 0.9rem;
 }
 
 .align span {
-    /* display: block; */
+    display: block;
 }
 
 /* section */
