@@ -99,6 +99,17 @@ button {
     cursor: pointer;
 }
 
+a {
+    color: var(--white-color);
+
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
 .nav-btn {
     border: 1px solid var(--pink);
     color: var(--pink);
@@ -216,13 +227,14 @@ section {
 }
 
 .align h2 {
-    /* font-size: 4rem; */
+    font-size: 4rem;
 }
 
 .align p {
     /* text-align: center; */
 
     color: grey;
+    font-size: 0.9rem;
 }
 
 .align span {
