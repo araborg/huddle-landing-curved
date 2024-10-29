@@ -365,11 +365,11 @@ button[type="submit"] {
     }
 
     .align div {
-        /* margin-bottom: 0; */
+        margin-bottom: 0;
     }
 
     .align span {
-        /* display: inline; */
+        display: inline;
     }
 
     .title-description {
@@ -377,19 +377,6 @@ button[type="submit"] {
 
         width: 70%;
         max-width: 700px;
-    }
-
-    .small-container {
-        /* display: flex; */
-        /* align-items: center; */
-        /* justify-content: center; */
-
-        border: 2px solid purple;
-        /* padding: 10em 0; */
-    }
-
-    .number {
-        /* margin: 0; */
     }
 }
 
