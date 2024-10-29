@@ -464,18 +464,24 @@ button[type="submit"] {
         display: flex;
     }
 
+    .desktop-form form {
+        /* order: -2; */
+    }
+
     input {
         width: 60%;
         max-width: 400px;
 
-        padding: 1.2em 0.8em;
+        padding: 0.8em;
 
         margin-bottom: 0;
+
+        font-size: 1rem;
     }
 
     button[type="submit"] {
-        font-size: calc(0.2rem + 1vw);
+        font-size: 1rem;
 
-        padding: 0.8em 1.5em;
+        padding: 0.8em 1.2em;
     }
 }
