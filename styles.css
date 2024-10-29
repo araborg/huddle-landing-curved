@@ -454,6 +454,8 @@ button[type="submit"] {
 
         font-size: 4rem;
 
+        padding: 2.5em 0;
+
         border: 2px solid blue;
     }
 
