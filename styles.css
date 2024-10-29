@@ -404,8 +404,6 @@ button[type="submit"] {
 
     .grow img {
         order: -2;
-
-        border: 2px solid purple;
     }
 
     .flex .text {
@@ -426,8 +424,6 @@ button[type="submit"] {
         font-size: 4rem;
 
         padding: 2.5em 0;
-
-        border: 2px solid blue;
     }
 
     .mini-container {
@@ -439,10 +435,6 @@ button[type="submit"] {
 
     .footer-right-side {
         order: 2;
-    }
-
-    .footer-right-side .footer-title {
-        /* position: relative; */
     }
 
     .footer-left-side,
