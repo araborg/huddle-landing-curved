@@ -211,8 +211,6 @@ main section:not(section:nth-child(1)) {
 
 .number {
     margin: 0;
-
-    border: 2px solid green;
 }
 
 .align h2 {
@@ -222,7 +220,7 @@ main section:not(section:nth-child(1)) {
 .align p {
     text-align: center;
 
-    color: grey;
+    color: #747474;
     font-size: 0.9rem;
 }
 
@@ -358,13 +356,9 @@ button[type="submit"] {
 @media (min-width: 650px) {
     .align {
         width: 80%;
-        /* max-width: 1200px; */
 
         display: flex;
         justify-content: space-between;
-        /* align-items: center; */
-
-        border: 2px solid red;
     }
 
     .align div {
