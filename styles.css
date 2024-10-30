@@ -155,7 +155,8 @@ a:focus {
     text-align: center;
 }
 
-main section:not(section:nth-child(1)) {
+/* main section:not(section:nth-child(1)) { */
+main section {
     text-align: center;
 }
 
