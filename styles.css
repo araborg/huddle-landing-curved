@@ -270,7 +270,7 @@ footer {
     display: flex;
     align-items: center;
 
-    margin: 1em 0;
+    margin: 0.75em 0;
 }
 
 .telephone img,
@@ -289,6 +289,10 @@ ul {
 
 ul li {
     margin-right: 1em;
+
+    /* font-size: 2rem; */
+
+    font-size: calc(1.2rem + 0.9vw);
 }
 
 .footer-title {
