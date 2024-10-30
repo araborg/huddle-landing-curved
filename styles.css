@@ -81,8 +81,6 @@ h3 {
 }
 
 button {
-    font-size: calc(0.7rem + 1vw);
-
     padding: 0.4em 1.2em;
 
     background: none;
@@ -109,10 +107,14 @@ a:focus {
 .nav-btn {
     border: 1px solid var(--pink);
     color: var(--pink);
+
+    font-size: calc(0.25rem + 0.9vw);
 }
 
 .title-btn,
 .cta {
+    font-size: calc(0.7rem + 1vw);
+
     background-color: var(--pink);
 
     padding: 0.8em 2em;
