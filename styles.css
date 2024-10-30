@@ -396,11 +396,8 @@ button[type="submit"] {
     .title-description {
         font-size: calc(0.5rem + 1vw);
 
-        /* .title-description { */
-        /* width: 70%; */
-        max-width: 700px;
-        border: 2px solid green;
-        /* } */
+        width: 67%;
+        max-width: 620px;
     }
 
     section {
