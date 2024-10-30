@@ -306,6 +306,8 @@ ul li {
 .footer-title {
     margin: 0;
     text-transform: uppercase;
+
+    font-size: calc(1.1rem + 1vw);
 }
 
 .footer-text {
