@@ -492,8 +492,6 @@ button[type="submit"] {
     }
 }
 
-@media (max-width: 1400px) {
-    body {
-        background-color: red;
-    }
+/* d width of my laptop screen */
+@media (max-width: 1366px) {
 }
