@@ -358,7 +358,6 @@ button[type="submit"] {
         width: 80%;
 
         display: flex;
-
         flex-direction: row;
         justify-content: space-between;
     }
@@ -382,10 +381,10 @@ button[type="submit"] {
     }
 
     .title-description {
-        font-size: calc(0.5rem + 1vw);
-
         width: 67%;
         max-width: 620px;
+
+        font-size: calc(0.5rem + 1vw);
     }
 
     section {
@@ -412,7 +411,6 @@ button[type="submit"] {
 
     .flex .text {
         width: 45%;
-
         max-width: 600px;
 
         text-align: left;
