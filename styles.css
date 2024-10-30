@@ -382,7 +382,7 @@ button[type="submit"] {
 
     .title-description {
         width: 67%;
-        max-width: 620px;
+        max-width: 650px;
 
         font-size: calc(0.5rem + 1vw);
     }
