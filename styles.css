@@ -434,6 +434,11 @@ button[type="submit"] {
         margin-top: 0;
     }
 
+    .description {
+        font-size: calc(0.28rem + 0.9vw);
+        /* font-size: calc(0.85rem + 0.9vw); */
+    }
+
     .call-to-action {
         flex-direction: column;
 
@@ -469,7 +474,8 @@ button[type="submit"] {
     }
 
     .footer-text {
-        width: 92%;
+        /* width: 92%; */
+        font-size: calc(0.3rem + 1vw);
     }
 
     form {
@@ -500,6 +506,7 @@ button[type="submit"] {
     }
 
     .attribution {
+        font-size: calc(0.3rem + 0.9vw);
         /* font-size: calc(0.3rem + 0.9vw); */
     }
 }
