@@ -244,8 +244,6 @@ main section {
 
 .description {
     font-size: calc(0.7rem + 0.9vw);
-
-    font-weight: 600;
 }
 
 /* footer */
@@ -284,7 +282,7 @@ footer {
 
 .telephone span,
 .email span {
-    font-size: calc(0.7rem + 1vw);
+    font-size: calc(0.7rem + 0.9vw);
 }
 
 ul {
@@ -307,7 +305,7 @@ ul li {
 }
 
 .footer-text {
-    font-size: calc(0.7rem + 1vw);
+    font-size: calc(0.7rem + 0.9vw);
 
     margin: 1.5em 0;
 }
@@ -448,12 +446,12 @@ button[type="submit"] {
     .footer-text,
     .telephone,
     .email {
-        font-size: calc(0.2rem + 1vw);
+        font-size: calc(0.3rem + 0.9vw);
     }
 
     .telephone span,
     .email span {
-        font-size: calc(0.25rem + 1vw);
+        font-size: calc(0.3rem + 0.9vw);
     }
 
     .footer-text {
@@ -488,6 +486,6 @@ button[type="submit"] {
     }
 
     .attribution {
-        font-size: calc(0.25rem + 1vw);
+        font-size: calc(0.3rem + 0.9vw);
     }
 }
