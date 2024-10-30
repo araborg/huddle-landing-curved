@@ -489,6 +489,6 @@ button[type="submit"] {
     }
 
     .attribution {
-        font-size: calc(0.3rem + 0.9vw);
+        /* font-size: calc(0.3rem + 0.9vw); */
     }
 }
