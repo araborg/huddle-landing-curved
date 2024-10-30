@@ -492,7 +492,7 @@ button[type="submit"] {
     }
 }
 
-@media (min-width: 800px) {
+@media (max-width: 1200px) {
     body {
         background-color: red;
     }
