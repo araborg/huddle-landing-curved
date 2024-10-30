@@ -25,7 +25,6 @@ https://pages.github.com/
 */
 
 /* general utilities */
-
 :root {
     /* Primary */
     --pink: hsl(322, 100%, 66%);
@@ -432,6 +431,8 @@ button[type="submit"] {
 
     .text .heading {
         margin-top: 0;
+
+        font-size: calc(1rem + 0.9vw);
     }
 
     .description {
