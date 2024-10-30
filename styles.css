@@ -255,6 +255,8 @@ footer {
 
     padding: 4em 0 2em 0;
     color: var(--white-color);
+
+    font-size: calc(0.75rem + 0.9vw);
 }
 
 .mini-container {
@@ -283,7 +285,7 @@ footer {
 
 .telephone span,
 .email span {
-    font-size: calc(0.7rem + 0.9vw);
+    /* font-size: calc(0.7rem + 0.9vw); */
 }
 
 ul {
@@ -306,7 +308,7 @@ ul li {
 }
 
 .footer-text {
-    font-size: calc(0.7rem + 0.9vw);
+    /* font-size: calc(0.75rem + 0.9vw); */
 
     margin: 1.5em 0;
 }
