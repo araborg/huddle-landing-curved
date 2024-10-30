@@ -357,11 +357,11 @@ button[type="submit"] {
     }
 
     .description {
-        /* font-size: calc(0.72rem + 0.9vw); */
+        font-size: calc(0.75rem + 0.9vw);
     }
 
     footer {
-        /* font-size: calc(0.75rem + 0.9vw); */
+        font-size: calc(0.65rem + 0.9vw);
     }
 }
 
