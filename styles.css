@@ -150,7 +150,6 @@ a:focus {
     text-align: center;
 }
 
-/* main section:not(section:nth-child(1)) { */
 main section {
     text-align: center;
 }
@@ -241,7 +240,6 @@ main section {
 
 .description {
     font-size: calc(0.72rem + 0.9vw);
-    /* font-size: calc(0.85rem + 0.9vw); */
 }
 
 /* footer */
@@ -278,11 +276,6 @@ footer {
 .telephone img,
 .email img {
     margin-right: 0.75em;
-}
-
-.telephone span,
-.email span {
-    /* font-size: calc(0.7rem + 0.9vw); */
 }
 
 ul {
