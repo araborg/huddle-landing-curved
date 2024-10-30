@@ -220,9 +220,8 @@ main section {
 }
 
 .align p {
-    /* text-align: center; */
-
     color: #747474;
+
     font-size: 0.9rem;
 }
 
