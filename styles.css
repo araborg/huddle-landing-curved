@@ -289,7 +289,6 @@ ul {
 
 ul li {
     margin-right: 1em;
-    /* font-size: 1.5em; */
 }
 
 .footer-title {
@@ -300,8 +299,6 @@ ul li {
 }
 
 .footer-text {
-    /* font-size: calc(0.75rem + 0.9vw); */
-
     margin: 1.5em 0;
 }
 
@@ -427,7 +424,6 @@ button[type="submit"] {
 
     .description {
         font-size: calc(0.28rem + 0.9vw);
-        /* font-size: calc(0.85rem + 0.9vw); */
     }
 
     .call-to-action {
@@ -451,12 +447,6 @@ button[type="submit"] {
     .footer-left-side,
     .footer-right-side {
         width: 36%;
-    }
-
-    .footer-text,
-    .telephone,
-    .email {
-        /* font-size: calc(0.3rem + 0.9vw); */
     }
 
     .telephone span,
