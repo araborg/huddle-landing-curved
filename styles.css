@@ -80,7 +80,7 @@ h3 {
     margin: 1.5em 0;
 }
 
-button {
+a {
     padding: 0.4em 1.2em;
 
     background: none;
@@ -324,7 +324,7 @@ input {
     margin-bottom: 1em;
 }
 
-button[type="submit"] {
+a[type="submit"] {
     display: block;
     align-self: flex-end;
 
@@ -482,7 +482,7 @@ button[type="submit"] {
         font-size: 1rem;
     }
 
-    button[type="submit"] {
+    a[type="submit"] {
         font-size: 1rem;
 
         padding: 0.8em 1.2em;
