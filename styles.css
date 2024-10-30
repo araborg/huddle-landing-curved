@@ -244,6 +244,8 @@ main section {
 
 .description {
     font-size: calc(0.7rem + 0.9vw);
+
+    font-weight: 600;
 }
 
 /* footer */
