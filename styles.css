@@ -290,8 +290,6 @@ ul {
 ul li {
     margin-right: 1em;
 
-    /* font-size: 2rem; */
-
     font-size: calc(1.2rem + 0.9vw);
 }
 
