@@ -115,6 +115,13 @@ a:focus {
     background-color: var(--pink);
 
     color: var(--white-color);
+
+    margin-left: 1em;
+}
+
+.nav-btn-live:hover,
+.nav-btn-live:focus {
+    text-decoration: none;
 }
 
 .title-btn,
