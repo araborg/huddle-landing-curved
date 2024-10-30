@@ -455,7 +455,6 @@ button[type="submit"] {
     }
 
     .footer-text {
-        /* width: 92%; */
         font-size: calc(0.3rem + 1vw);
     }
 
@@ -488,6 +487,5 @@ button[type="submit"] {
 
     .attribution {
         font-size: calc(0.3rem + 0.9vw);
-        /* font-size: calc(0.3rem + 0.9vw); */
     }
 }
