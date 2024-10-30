@@ -449,7 +449,7 @@ button[type="submit"] {
     .footer-text,
     .telephone,
     .email {
-        font-size: calc(0.3rem + 0.9vw);
+        /* font-size: calc(0.3rem + 0.9vw); */
     }
 
     .telephone span,
